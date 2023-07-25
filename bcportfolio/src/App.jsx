@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Route, Routes } from 'react-router'
 import Nav from './components/Nav'
 import Home from './pages/Home'
-import About from './pages/About'
+import Bio from './pages/Bio'
 import './App.css'
 
 function App() {
@@ -20,10 +20,10 @@ function App() {
       <br />
 
       <main>
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/" element={<About />} />
-        </Routes>
+          <Route path="/bio" element={<Bio />} />
+        </Routes> */}
         <div className="card">
           <button onClick={() => setCount((count) => count + 1)}>
             {count} clicks
