@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router'
 import Nav from './components/Nav'
 import Home from './pages/Home'
 import Bio from './pages/Bio'
+import Portfolio from './pages/Portfolio'
 import './App.css'
 
 function App() {
@@ -22,12 +23,13 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/bio" element={<Bio />} />
         </Routes>
 
         <br />
         <footer className="footer">
-          © {getYear()} Cherch, all rights reserved -- 
+          © {getYear()} Cherch, all rights reserved --
           <a className="footerLink" target="_blank" href="mailto:cherchofficial@gmail.com">CONTACT</a>
         </footer>
       </main>

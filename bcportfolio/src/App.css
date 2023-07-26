@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color:rgb(43, 57, 43);
+  background-color:rgb(36, 41, 36);
   color: whitesmoke;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -46,12 +46,34 @@ font-size: 5vmin;
   margin-right: .5vmin;
 }
 
+.label {
+  color:rgb(137, 173, 137);
+  font-size: 2vmin;
+}
+
+p {
+  font-size: 2vmin;
+}
+
+.card {
+  padding: 4vmin;
+  margin: 2vmin;
+  border-radius: 5px;
+  border: 1px solid blanchedalmond;
+}
+
 .profileImage {
   max-width: 42vmin;
   border-radius: 50%;
 }
+
 .funImage {
   max-width: 66vmin;
+  border-radius: 5px;
+}
+
+.portfolioImage {
+  max-width: 50vmin;
   border-radius: 5px;
 }
 
@@ -59,7 +81,7 @@ button {
 border-radius: 5px;
 color: whitesmoke;
 background-color: seagreen;
-font-size: 4vmin;
+font-size: 3vmin;
 border: 1px solid rgb(15, 79, 15);
 }
 
@@ -75,7 +97,7 @@ transition: ease-in 142ms;
 border-radius: 5px;
 color: whitesmoke;
 background-color: steelblue;
-font-size: 4vmin;
+font-size: 3vmin;
 border: 1px solid navy;
 }
 
@@ -90,8 +112,8 @@ transition: ease-in 142ms;
 .githubButton {
 border-radius: 5px;
 color: whitesmoke;
-background-color: rgb(37, 37, 37);
-font-size: 4vmin;
+background-color: rgb(101, 101, 101);
+font-size: 3vmin;
 border: 1px solid black;
 }
 
@@ -118,10 +140,6 @@ transition: ease-in 142ms;
   }
 }
 
-.card {
-  padding: 2em;
-}
 
-.read-the-docs {
-  color: #888;
-}
+
+
