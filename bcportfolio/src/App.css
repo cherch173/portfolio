@@ -6,31 +6,31 @@
 }
 
 body {
-  background-color:rgb(36, 41, 36);
+  background-color: rgb(36, 41, 36);
   color: whitesmoke;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a {
-  color:rgb(173, 173, 137);
+  color: rgb(173, 173, 137);
   margin-right: 1vmin;
   margin-left: 1vmin;
   text-shadow: -.25px .25px black;
 }
 
 a:hover {
-  color:rgb(137, 173, 137);
+  color: rgb(137, 173, 137);
   transform: scale(105%);
   transition: ease-in 142ms;
 }
 
 a:visited:hover {
-  color:rgb(137, 173, 137);
+  color: rgb(137, 173, 137);
 }
 
 .headerText {
-text-shadow: -.25px .25px black;
-font-size: 5vmin;
+  text-shadow: -.25px .25px black;
+  font-size: 5vmin;
 }
 
 .subheaderText {
@@ -38,16 +38,27 @@ font-size: 5vmin;
 }
 
 .devText {
-  color:rgb(173, 173, 137);
+  color: rgb(173, 173, 137);
   text-shadow: -.25px .25px black;
   font-weight: bold;
   margin-left: .5vmin;
   margin-right: .5vmin;
 }
 
+.grittyText {
+  color: orange;
+  text-shadow: -.25px .25px black;
+  font-weight: bold;
+}
+
 .label {
-  color:rgb(137, 173, 137);
+  color: rgb(137, 173, 137);
   font-size: 2vmin;
+}
+
+.grittyLabel {
+  color: orange;
+  text-shadow: -.25px .25px black;
 }
 
 p {
@@ -68,8 +79,8 @@ p {
 }
 
 .profileImage {
-  max-width: 42vmin;
-  border-radius: 50%;
+  max-width: 30vmin;
+  border-radius: 5%;
 }
 
 .funImage {
@@ -83,57 +94,58 @@ p {
 }
 
 button {
-border-radius: 5px;
-color: whitesmoke;
-background-color: seagreen;
-font-size: 3vmin;
-border: 1px solid rgb(15, 79, 15);
+  border-radius: 5px;
+  color: whitesmoke;
+  background-color: seagreen;
+  font-size: 3vmin;
+  border: 1px solid rgb(15, 79, 15);
 }
 
 button:hover {
-border-radius: 5px;
-background-color: whitesmoke;
-color: rgb(15, 79, 15);
-transform: scale(105%);
-transition: ease-in 142ms;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  color: rgb(15, 79, 15);
+  transform: scale(105%);
+  transition: ease-in 142ms;
 }
 
 .linkedinButton {
-border-radius: 5px;
-color: whitesmoke;
-background-color: steelblue;
-font-size: 3vmin;
-border: 1px solid navy;
+  border-radius: 5px;
+  color: whitesmoke;
+  background-color: steelblue;
+  font-size: 3vmin;
+  border: 1px solid navy;
 }
 
 .linkedinButton:hover {
-border-radius: 5px;
-background-color: whitesmoke;
-color: steelblue;
-transform: scale(105%);
-transition: ease-in 142ms;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  color: steelblue;
+  transform: scale(105%);
+  transition: ease-in 142ms;
 }
 
 .githubButton {
-border-radius: 5px;
-color: whitesmoke;
-background-color: rgb(101, 101, 101);
-font-size: 3vmin;
-border: 1px solid black;
+  border-radius: 5px;
+  color: whitesmoke;
+  background-color: rgb(101, 101, 101);
+  font-size: 3vmin;
+  border: 1px solid black;
 }
 
 .githubButton:hover {
-border-radius: 5px;
-background-color: whitesmoke;
-color: black;
-transform: scale(105%);
-transition: ease-in 142ms;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  color: black;
+  transform: scale(105%);
+  transition: ease-in 142ms;
 }
 
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -144,7 +156,3 @@ transition: ease-in 142ms;
     animation: logo-spin infinite 20s linear;
   }
 }
-
-
-
-

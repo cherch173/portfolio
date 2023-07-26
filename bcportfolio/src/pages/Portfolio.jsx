@@ -33,8 +33,8 @@ const Portfolio = () => {
                 <label className="label" htmlFor="techStack">tech stack: </label>
                 <p>[Python | Django | postgreSQL | AWS S3 | Materialize | CSS]</p>
                 <label className="label" htmlFor="description">description: </label>
-                <p>A fullstack web application that acts as a fully user-interactive database for confirmed declassified UAP / UFO cases, sightings and reports.  Utilizing several different full CRUD operations, users can read articles, view images, gifs and videos (spanning from entire documentaries to military footage and radar data) in high resolution and access official documentation.</p>
-                <p><span className="devText">CLEARANCE</span>was built as a group project where I served as Git Manager, project Manager and primary composer for one-to-many relationships.  In addition to my project leadership and backend design, I also spearheaded Frontend development combining CSS with Materialize.</p>
+                <p>A fullstack web application that acts as a fully user-interactive database for confirmed declassified UAP / UFO cases, sightings and reports.  Utilizing several different full CRUD operations, users can read articles, view images, gifs and videos (spanning from entire documentaries to military footage and radar data) in high resolution and even access official government documentation.</p>
+                <p><span className="devText">CLEARANCE</span>was built as a group endeavor with two other developers (Platin Syla & Nicholas Emmons) where I served as Git Manager, Project Manager and the primary composer for entites with one-to-many relationships.  In addition to my project leadership and backend design, I also spearheaded Frontend development combining raw CSS with Google's UI library Materialize.</p>
                 <br />
                 <Link to="http://www.github.com/cherch173/clearance" target='_blank'>
                     <button className="githubButton">github</button>
@@ -56,7 +56,23 @@ const Portfolio = () => {
                 </Link>
             </div>
             <br />
+
             <h5 className="subheaderText">Featured Browser-Based Games</h5>
+            <div className="card">
+                <Link to="https://gritty.surge.sh/" target="_blank">
+                    <img className="portfolioImage" src="https://media.tenor.com/FPeoC2M4Z3IAAAAC/gritty-flyers-mascot.gif" alt="sliceImage" />
+                    <h3>GRITTY (Tic-Tac-Toe)</h3>
+                </Link>
+                <label className="grittyLabel" htmlFor="techStack">tech stack: </label>
+                <p>[Javascript | CSS | HTML]</p>
+                <label className="grittyLabel" htmlFor="description">description: </label>
+                <p>A tic-tac-toe tete-a-tete against everyone's favorite mascot, <span className="grittyText">Gritty</span>.</p>
+                <br />
+                <Link to="http://www.github.com/cherch173/slice" target='_blank'>
+                    <button className="githubButton">github</button>
+                </Link>
+            </div>
+
         </div>
     )
 }
