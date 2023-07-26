@@ -52,6 +52,12 @@ a:visited:hover {
   font-weight: bold;
 }
 
+.princeText {
+  color:mediumpurple ;
+  text-shadow: -.25px .25px black;
+  font-weight: bold;
+}
+
 .label {
   color: rgb(137, 173, 137);
   font-size: 2vmin;
@@ -59,6 +65,11 @@ a:visited:hover {
 
 .grittyLabel {
   color: orange;
+  text-shadow: -.25px .25px black;
+}
+
+.princeLabel {
+  color: mediumpurple;
   text-shadow: -.25px .25px black;
 }
 

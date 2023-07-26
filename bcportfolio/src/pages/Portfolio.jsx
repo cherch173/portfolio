@@ -74,11 +74,11 @@ const Portfolio = () => {
             <div className="card">
                 <Link to="https://gritty.surge.sh/" target="_blank">
                     <img className="portfolioImage" src="https://media.tenor.com/FPeoC2M4Z3IAAAAC/gritty-flyers-mascot.gif" alt="sliceImage" />
-                    <h3>GRITTY (Tic-Tac-Toe)</h3>
+                    <h3>GRITTY [Tic-Tac-Toe]</h3>
                 </Link>
-                <label className="grittyLabel" htmlFor="techStack">tech stack: </label>
+                <label className="label" htmlFor="techStack">tech stack </label>
                 <p>[Javascript | CSS | HTML]</p>
-                <label className="grittyLabel" htmlFor="description">description: </label>
+                <label className="label" htmlFor="description">description </label>
                 <p>A tic-tac-toe tete-a-tete against everyone's favorite mascot, <span className="grittyText">Gritty</span>.</p>
                 <br />
                 <Link to="http://www.github.com/cherch173/grit_gritt_n_gritty" target='_blank'>
@@ -88,7 +88,7 @@ const Portfolio = () => {
             <br />
             <div className="card">
                 <Link to="https://connect4charliemurphy.surge.sh/" target="_blank">
-                    <img className="portfolioImage" src="" alt="charliemurphyImage" />
+                    <img className="portfolioImage" src="https://thumbs.gfycat.com/PowerlessUncomfortableComet.webp" alt="charliemurphyImage" />
                     <h3>CONNECT FOUR, CHARLIE MURPHY</h3>
                 </Link>
                 <label className="label" htmlFor="techStack">tech stack: </label>
@@ -106,6 +106,22 @@ const Portfolio = () => {
 
                 <br />
                 <Link to="http://www.github.com/cherch173/grit_gritt_n_gritty" target='_blank'>
+                    <button className="githubButton">github</button>
+                </Link>
+            </div>
+            <br />
+            <div className="card">
+                <Link to="https://boomtownpong.surge.sh/" target="_blank">
+                    <img className="portfolioImage" src="https://media.tenor.com/IrfZ5LGhnckAAAAC/letterkenny-boomtown.gif" alt="boomtownPongImage" />
+                    <h3>BOOMTOWN [Pong Edition]</h3>
+                </Link>
+                <label className="label" htmlFor="techStack">tech stack </label>
+                <p>[Javascript | CSS | HTML]</p>
+                <label className="label" htmlFor="description">description </label>
+                <p>A two-player javascript-fueled hybrid of the Atari classic <i>Pong</i> with table-top Air Hockey.</p>
+                <p>Collision detection was engineered using CSS Style Property manipulation *and* getBoundingClientRect()</p>
+                <br />
+                <Link to="https://github.com/cherch173/Pong-1.0" target='_blank'>
                     <button className="githubButton">github</button>
                 </Link>
             </div>
