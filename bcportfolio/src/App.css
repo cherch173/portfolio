@@ -15,6 +15,7 @@ a {
   color: blanchedalmond;
   margin-right: 2vmin;
   margin-left: 2vmin;
+  text-shadow: -.25px .25px black;
 }
 
 a:hover {
@@ -25,6 +26,11 @@ a:hover {
 
 a:visited:hover {
   color:lightseagreen;
+}
+
+.headerText {
+text-shadow: -.25px .25px black;
+font-size: 5vmin;
 }
 
 button {
