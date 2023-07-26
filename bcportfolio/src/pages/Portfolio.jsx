@@ -10,7 +10,7 @@ const Portfolio = () => {
                 <button className="resumeButton">download resume</button>
             </Link>
             <br />
-            <h5 className="subheaderText">Featured Web Applcations</h5>
+            <h5 className="subheaderText">Featured Web Applications</h5>
             <div className="card">
                 <Link to="https://smokeapp-4be26bed9b46.herokuapp.com/" target="_blank">
                     <img className="portfolioImage" src="https://i.gifer.com/XTiU.gif" alt="smokeImage" />
