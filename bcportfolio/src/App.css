@@ -1,21 +1,46 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2vmin;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+body {
+  background-color:rgb(15, 79, 15);
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+a {
+  color: blanchedalmond;
+  margin-right: 2vmin;
+  margin-left: 2vmin;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+a:hover {
+  color: lightseagreen;
+  transform: scale(105%);
+  transition: ease-in 142ms;
+}
+
+a:visited:hover {
+  color:lightseagreen;
+}
+
+button {
+border-radius: 5px;
+color: whitesmoke;
+background-color: seagreen;
+font-size: 4vmin;
+border: 1px solid rgb(15, 79, 15);
+}
+
+button:hover {
+border-radius: 5px;
+background-color: blanchedalmond;
+color: rgb(15, 79, 15);
+transform: scale(105%);
+transition: ease-in 142ms;
 }
 
 @keyframes logo-spin {

@@ -20,10 +20,10 @@ function App() {
       <br />
 
       <main>
-        {/* <Routes>
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/bio" element={<Bio />} />
-        </Routes> */}
+        </Routes>
         <div className="card">
           <button onClick={() => setCount((count) => count + 1)}>
             {count} clicks
@@ -31,8 +31,8 @@ function App() {
         </div>
         <br />
         <footer className="footer">
-          © {getYear()} Cherch, all rights reserved --
-          <a className="footerLink" target="_blank" href="mailto:cherchofficial@gmail.com"> CONTACT</a>
+          © {getYear()} Cherch, all rights reserved -- 
+          <a className="footerLink" target="_blank" href="mailto:cherchofficial@gmail.com">CONTACT</a>
         </footer>
       </main>
     </div>
