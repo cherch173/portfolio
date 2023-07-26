@@ -3,14 +3,27 @@ import { useRef, useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 const Portfolio = () => {
+    const scrollDownRef = useRef()
+    const scrollUpRef = useRef()
+
+
+    const scrollUp = () => {
+        scrollDownRef.current.scrollIntoView({ behavior: 'smooth' })
+    }
+
+    const scrollDown = () => {
+        scrollUpRef.current.scrollIntoView({ behavior: 'smooth' })
+    }
+
+
     return (
         <div>
             <h3 className="headerText">Brian Cherchiglia</h3>
+            <h5 className="subheaderText" ref={scrollDownRef}>Featured Web Applications</h5>
             <Link to="/src/assets/Brian Cherchiglia Resume SE2023.pdf" target="_blank">
-                <button className="resumeButton">download resume</button>
+                <button className="scrollButton">download resume</button>
             </Link>
-            <br />
-            <h5 className="subheaderText">Featured Web Applications</h5>
+            <button className="scrollButton" onClick={scrollDown}>scroll down to games</button>
             <div className="card">
                 <Link to="https://smokeapp-4be26bed9b46.herokuapp.com/" target="_blank">
                     <img className="portfolioImage" src="https://i.gifer.com/XTiU.gif" alt="smokeImage" />
@@ -72,7 +85,10 @@ const Portfolio = () => {
                     <button className="githubButton">github</button>
                 </Link>
             </div>
-
+        <br />
+        <button ref={scrollUpRef} className="scrollButton" onClick={scrollUp}>
+            scroll up to apps
+        </button>
         </div>
     )
 }
