@@ -62,7 +62,7 @@ const Portfolio = () => {
                 <label className="label" htmlFor="techStack">tech stack: </label>
                 <p>[Express.js | NODE.js | OAuth | CSS | Javascript | HTML]</p>
                 <label className="label" htmlFor="description">description: </label>
-                <p>The official end to the argument.  Long have New Yorkers argued over what the <i>best</i> pizza in the city is.  Well, in order to quell that debate I constructed <span className="devText">SLICE</span>, an Express.js application that acts as a power rankings site to achieve that exact goal using an aggregate scale of 5.</p>
+                <p>The official end to the argument.  Long have New Yorkers argued over what the <i>best</i> pizza in the city is.  Well, in order to quell that debate I made <span className="devText">SLICE</span>: an Express.js application that acts as a power rankings site to achieve that exact goal using an aggregate scale of 5.</p>
                 <br />
                 <Link to="http://www.github.com/cherch173/slice" target='_blank'>
                     <button className="githubButton">github</button>

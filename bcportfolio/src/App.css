@@ -20,13 +20,15 @@ a {
 
 a:hover {
   color: rgb(137, 173, 137);
+  color: whitesmoke;
   transform: scale(105%);
   transition: ease-in 142ms;
   cursor: pointer;
 }
 
 a:visited:hover {
-  color: rgb(137, 173, 137);
+  /* color: rgb(137, 173, 137); */
+  color: whitesmoke;
 }
 
 .headerText {
