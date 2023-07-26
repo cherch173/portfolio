@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Route, Routes } from 'react-router'
 import Nav from './components/Nav'
 import Home from './pages/Home'
@@ -6,7 +6,7 @@ import Bio from './pages/Bio'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+
   const getYear = () => {
     return new Date().getFullYear()
   }
@@ -24,11 +24,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/bio" element={<Bio />} />
         </Routes>
-        <div className="card">
-          <button onClick={() => setCount((count) => count + 1)}>
-            {count} clicks
-          </button>
-        </div>
+
         <br />
         <footer className="footer">
           © {getYear()} Cherch, all rights reserved -- 
