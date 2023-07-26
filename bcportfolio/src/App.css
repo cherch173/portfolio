@@ -13,24 +13,34 @@ body {
 
 a {
   color: blanchedalmond;
-  margin-right: 2vmin;
-  margin-left: 2vmin;
+  margin-right: 1vmin;
+  margin-left: 1vmin;
+  margin-bottom: 1min;
   text-shadow: -.25px .25px black;
 }
 
 a:hover {
-  color: lightseagreen;
+  color:rgb(137, 173, 137);
   transform: scale(105%);
   transition: ease-in 142ms;
 }
 
 a:visited:hover {
-  color:lightseagreen;
+  color:rgb(137, 173, 137);
 }
 
 .headerText {
 text-shadow: -.25px .25px black;
 font-size: 5vmin;
+}
+
+.profileImage {
+  max-width: 42vmin;
+  border-radius: 50%;
+}
+.funImage {
+  max-width: 66vmin;
+  border-radius: 5px;
 }
 
 button {
@@ -43,7 +53,7 @@ border: 1px solid rgb(15, 79, 15);
 
 button:hover {
 border-radius: 5px;
-background-color: blanchedalmond;
+background-color: whitesmoke;
 color: rgb(15, 79, 15);
 transform: scale(105%);
 transition: ease-in 142ms;
