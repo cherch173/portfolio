@@ -81,14 +81,38 @@ const Portfolio = () => {
                 <label className="grittyLabel" htmlFor="description">description: </label>
                 <p>A tic-tac-toe tete-a-tete against everyone's favorite mascot, <span className="grittyText">Gritty</span>.</p>
                 <br />
-                <Link to="http://www.github.com/cherch173/slice" target='_blank'>
+                <Link to="http://www.github.com/cherch173/grit_gritt_n_gritty" target='_blank'>
                     <button className="githubButton">github</button>
                 </Link>
             </div>
-        <br />
-        <button ref={scrollUpRef} className="scrollButton" onClick={scrollUp}>
-            scroll up to apps
-        </button>
+            <br />
+            <div className="card">
+                <Link to="https://connect4charliemurphy.surge.sh/" target="_blank">
+                    <img className="portfolioImage" src="" alt="charliemurphyImage" />
+                    <h3>CONNECT FOUR, CHARLIE MURPHY</h3>
+                </Link>
+                <label className="label" htmlFor="techStack">tech stack: </label>
+                <p>[Javascript | CSS | HTML]</p>
+                <label className="label" htmlFor="description">description: </label>
+                <p>You're Charlie Murphy.
+                </p>
+                <p>
+                    <span className="princeText">Prince</span> just challenged you to a game of Connect Four.
+                </p>
+                <p>
+
+                    ...hope you like pancakes.
+                </p>
+
+                <br />
+                <Link to="http://www.github.com/cherch173/grit_gritt_n_gritty" target='_blank'>
+                    <button className="githubButton">github</button>
+                </Link>
+            </div>
+            <br />
+            <button ref={scrollUpRef} className="scrollButton" onClick={scrollUp}>
+                scroll up to apps
+            </button>
         </div>
     )
 }
