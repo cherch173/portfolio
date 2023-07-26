@@ -19,7 +19,7 @@ const Portfolio = () => {
                 <label className="label" htmlFor="techStack">tech stack: </label>
                 <p>MERN [MongoDB | Express.js | React.js | NODE.js]</p>
                 <label className="label" htmlFor="description">description: </label>
-                <p>Primarily designed using React.js, <span className="devText">SMOKE</span> is a social network I designed as a hub for intellectual property and creative endeavors. Using the expansive capabilities of React's built in react-router-dom features (such as useRef useContext and Link) I engineered a comment section unique to each card and (using nested arrays of objects) store user data and presence within several schemas, making data access between objects virtually global from just a simple "like."</p>
+                <p><span className="devText">SMOKE</span> is a social network I designed as a hub for intellectual property and creative endeavors. Using the expansive capabilities of React's built in react-router-dom features (such as useRef useContext and Link) I engineered a comment section unique to each card and (using nested arrays of objects) store user data and presence within several schemas, making data access between objects virtually global from just a simple "like."</p>
                 <Link to="http://www.github.com/cherch173/smoke" target='_blank'>
                     <button className="githubButton">github</button>
                 </Link>
