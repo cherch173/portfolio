@@ -18,7 +18,12 @@ const Bio = () => {
 
   return (
     <div>
-      <h3 className="headerText">Hi, I'm Brian.</h3>
+      <h3 className="headerText">
+        <span className="whiteText">
+           Hi!
+        </span>
+        I'm Brian.
+      </h3>
       <p>
         <Link to="http://www.linkedin.com/in/bcherchiglia" target="_blank">
           <button className="linkedinButton">linkedin</button>
@@ -87,7 +92,7 @@ const Bio = () => {
       <br />
       <br />
       <br />
-      <br /><br />
+      <br />
     </div>
   )
 }

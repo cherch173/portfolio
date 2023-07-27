@@ -31,8 +31,17 @@ const Portfolio = () => {
     return (
         <div>
             <h3 className="headerText">Brian Cherchiglia</h3>
-            <h5 className="subheaderText" ref={scrollDownRef}>Featured Web Applications</h5>
-                <button onClick={handleClick} className="scrollButton" target="_blank">download resume</button>
+            <h6 className="subheaderText">software engineer - fullstack web developer </h6>
+            <h6 ref={scrollDownRef}>Featured Web Applications</h6>
+            <p>
+                <Link to="http://www.linkedin.com/in/bcherchiglia" target="_blank">
+                    <button className="linkedinButton">linkedin</button>
+                </Link>
+                <button onClick={handleClick} className="scrollButton" target="_blank">resume</button>
+                <Link to="http://www.github.com/cherch173" target="_blank">
+                    <button className="githubButton">github</button>
+                </Link>
+            </p>
             <button className="scrollButton" onClick={scrollDown}>scroll down to games</button>
             <div className="card">
                 <Link to="https://smokeapp-4be26bed9b46.herokuapp.com/" target="_blank">
@@ -80,7 +89,7 @@ const Portfolio = () => {
             </div>
             <br />
 
-            <h5 className="subheaderText">Featured Browser-Based Games</h5>
+            <h6 className="subheaderText">Featured Browser-Based Games</h6>
             <div className="card">
                 <Link to="https://gritty.surge.sh/" target="_blank">
                     <img className="portfolioImage" src="https://media.tenor.com/FPeoC2M4Z3IAAAAC/gritty-flyers-mascot.gif" alt="sliceImage" />
