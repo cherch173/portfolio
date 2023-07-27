@@ -15,14 +15,24 @@ const Portfolio = () => {
         scrollUpRef.current.scrollIntoView({ behavior: 'smooth' })
     }
 
+    const handleClick = () => {
+        fetch('public/Brian_Cherchiglia_Resume_SE2023.pdf').then(res => {
+            res.blob().then(blob => {
+                const fileURL = window.URL.createObjectURL(blob);
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'public/Brian_Cherchiglia_Resume_SE2023.pdf';
+                alink.click()
+            })
+        })
+    }
+
 
     return (
         <div>
             <h3 className="headerText">Brian Cherchiglia</h3>
             <h5 className="subheaderText" ref={scrollDownRef}>Featured Web Applications</h5>
-            <Link to="/src/assets/Brian_Cherchiglia_Resume_SE2023.pdf" target="_blank">
-                <button className="scrollButton">download resume</button>
-            </Link>
+                <button onClick={handleClick} className="scrollButton" target="_blank">download resume</button>
             <button className="scrollButton" onClick={scrollDown}>scroll down to games</button>
             <div className="card">
                 <Link to="https://smokeapp-4be26bed9b46.herokuapp.com/" target="_blank">
