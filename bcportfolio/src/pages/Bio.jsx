@@ -5,15 +5,15 @@ const Bio = () => {
 
   const handleClick = () => {
     fetch('public/Brian_Cherchiglia_Resume_SE2023.pdf').then(res => {
-        res.blob().then(blob => {
-            const fileURL = window.URL.createObjectURL(blob);
-            let alink = document.createElement('a');
-            alink.href = fileURL;
-            alink.download = 'public/Brian_Cherchiglia_Resume_SE2023.pdf';
-            alink.click()
-        })
+      res.blob().then(blob => {
+        const fileURL = window.URL.createObjectURL(blob);
+        let alink = document.createElement('a');
+        alink.href = fileURL;
+        alink.download = 'public/Brian_Cherchiglia_Resume_SE2023.pdf';
+        alink.click()
+      })
     })
-}
+  }
 
 
   return (
@@ -26,7 +26,10 @@ const Bio = () => {
         <Link to="http://www.github.com/cherch173" target="_blank">
           <button className="githubButton">github</button>
         </Link>
-        <button onClick={handleClick} className="scrollButton" target="_blank">download resume</button>
+        <Link to="/public/Brian_Cherchiglia_Resume_SE2023.pdf" target="_blank">
+          <button className="scrollButton">resume</button>
+        </Link>
+        {/* <button onClick={handleClick} className="scrollButton" target="_blank">download resume</button> */}
       </p>
       <img
         src="https://avatars.githubusercontent.com/u/130800271?v=4"
@@ -77,13 +80,17 @@ const Bio = () => {
           </span>
           from General Assembly's Software Engineering 2.0 Immersive (which entailed 420 hours of real-world programming experience) and have quickly found refuge in the endless creative possibilities of web development.
         </p>
-        <br />
       </div>
+      <br />
       <Link to="/portfolio">
         <button className="button">enter portfolio</button>
       </Link>
       <br />
       <br />
+      <br />
+      <br />
+      <br />
+      <br /><br />
     </div>
   )
 }

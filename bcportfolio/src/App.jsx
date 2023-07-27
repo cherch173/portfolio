@@ -15,15 +15,15 @@ function App() {
 
   const handleClick = () => {
     fetch('public/Brian_Cherchiglia_Resume_SE2023.pdf').then(res => {
-        res.blob().then(blob => {
-            const fileURL = window.URL.createObjectURL(blob);
-            let alink = document.createElement('a');
-            alink.href = fileURL;
-            alink.download = 'public/Brian_Cherchiglia_Resume_SE2023.pdf';
-            alink.click()
-        })
+      res.blob().then(blob => {
+        const fileURL = window.URL.createObjectURL(blob);
+        let alink = document.createElement('a');
+        alink.href = fileURL;
+        alink.download = 'public/Brian_Cherchiglia_Resume_SE2023.pdf';
+        alink.click()
+      })
     })
-}
+  }
 
   return (
     <div>
@@ -42,12 +42,11 @@ function App() {
 
         <br />
       </main>
-        <footer className="footer">
-          © {getYear()} Cherch, all rights reserved --
-          <a className="footerLink" target="_blank" href="mailto:cherchofficial@gmail.com">CONTACT</a>
-        </footer>
+      <footer className="footer">
+        © {getYear()} Cherch, all rights reserved --
+        <a className="footerLink" target="_blank" href="mailto:cherchofficial@gmail.com">CONTACT</a>
+      </footer>
     </div>
-
   )
 }
 

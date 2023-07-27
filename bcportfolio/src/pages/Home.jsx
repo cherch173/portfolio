@@ -17,13 +17,26 @@ const Home = () => {
       <br />
       <br />
       <br />
-      <br />
       <Link to="/portfolio">
         <button className="button">enter portfolio</button>
       </Link>
       {/* <button onClick={() => setCount((count) => count + 1)}>
         {count} clicks
       </button> */}
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   )
 }
