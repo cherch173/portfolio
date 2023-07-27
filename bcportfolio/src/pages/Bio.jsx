@@ -12,7 +12,7 @@ const Bio = () => {
         <Link to="http://www.github.com/cherch173" target="_blank">
           <button className="githubButton">github</button>
         </Link>
-        <Link to="dist/assets/Brian Cherchiglia Resume SE2023.pdf" target="_blank">
+        <Link to="/dist/Brian Cherchiglia Resume SE2023.pdf" target="_blank">
           <button className="resumeButton">resume</button>
         </Link>
       </p>
