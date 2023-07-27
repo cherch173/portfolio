@@ -6,7 +6,8 @@
 }
 
 body {
-  background-color: rgb(36, 41, 36);
+  background-color: rgb(28, 31, 28);
+  /* background-image: url('https://thumbs.gfycat.com/ValuableDisguisedCurlew-size_restricted.gif'); */
   color: whitesmoke;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -84,7 +85,7 @@ p {
   margin: 2vmin;
   border-radius: 5px;
   border: 1px solid blanchedalmond;
-  background-color: rgb(32, 45, 32);
+  background-color: rgba(32, 45, 32, .73);
 }
 
 .card:hover {
