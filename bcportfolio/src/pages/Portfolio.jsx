@@ -129,7 +129,7 @@ const Portfolio = () => {
                 <p>[Javascript | CSS | HTML]</p>
                 <label className="label" htmlFor="description">description </label>
                 <p>A two-player javascript-fueled hybrid of the Atari classic <i>Pong</i> with table-top Air Hockey.</p>
-                <p>Collision detection was engineered using CSS Style Property manipulation and vanilla javascript like getBoundingClientRect()</p>
+                <p>Collision detection was engineered using CSS Style Property manipulation and vanilla javascript methods such as getBoundingClientRect()</p>
                 <br />
                 <Link to="https://github.com/cherch173/Pong-1.0" target='_blank'>
                     <button className="githubButton">github</button>
