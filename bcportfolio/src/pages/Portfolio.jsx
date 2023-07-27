@@ -32,7 +32,6 @@ const Portfolio = () => {
         <div>
             <h3 className="headerText">Brian Cherchiglia</h3>
             <h6 className="subheaderText">software engineer - fullstack web developer </h6>
-            <h6 ref={scrollDownRef}>Featured Web Applications</h6>
             <p>
                 <Link to="http://www.linkedin.com/in/bcherchiglia" target="_blank">
                     <button className="linkedinButton">linkedin</button>
@@ -43,6 +42,7 @@ const Portfolio = () => {
                 </Link>
             </p>
             <button className="scrollButton" onClick={scrollDown}>scroll down to games</button>
+            <h6 ref={scrollDownRef}>Featured Web Applications</h6>
             <div className="card">
                 <Link to="https://smokeapp-4be26bed9b46.herokuapp.com/" target="_blank">
                     <img className="portfolioImage" src="https://i.gifer.com/XTiU.gif" alt="smokeImage" />
@@ -89,7 +89,7 @@ const Portfolio = () => {
             </div>
             <br />
 
-            <h6 className="subheaderText">Featured Browser-Based Games</h6>
+            <h6 >Featured Browser-Based Games</h6>
             <div className="card">
                 <Link to="https://gritty.surge.sh/" target="_blank">
                     <img className="portfolioImage" src="https://media.tenor.com/FPeoC2M4Z3IAAAAC/gritty-flyers-mascot.gif" alt="sliceImage" />
