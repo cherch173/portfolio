@@ -44,7 +44,6 @@ function App() {
         <footer className="footer">
           © {getYear()} Cherch, all rights reserved --
           <a className="footerLink" target="_blank" href="mailto:cherchofficial@gmail.com">CONTACT</a>
-          <a className="footerLink" target="_blank" onClick={handleClick}>RESUME</a>
         </footer>
       </main>
     </div>
