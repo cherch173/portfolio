@@ -14,12 +14,12 @@ function App() {
 
 
   const handleClick = () => {
-    fetch('src/assets/Brian_Cherchiglia_Resume_SE2023.pdf').then(res => {
+    fetch('public/Brian_Cherchiglia_Resume_SE2023.pdf').then(res => {
         res.blob().then(blob => {
             const fileURL = window.URL.createObjectURL(blob);
             let alink = document.createElement('a');
             alink.href = fileURL;
-            alink.download = 'src/assets/Brian_Cherchiglia_Resume_SE2023.pdf';
+            alink.download = 'public/Brian_Cherchiglia_Resume_SE2023.pdf';
             alink.click()
         })
     })
@@ -44,6 +44,7 @@ function App() {
         <footer className="footer">
           © {getYear()} Cherch, all rights reserved --
           <a className="footerLink" target="_blank" href="mailto:cherchofficial@gmail.com">CONTACT</a>
+          <a className="footerLink" target="_blank" onClick={handleClick}>RESUME</a>
         </footer>
       </main>
     </div>

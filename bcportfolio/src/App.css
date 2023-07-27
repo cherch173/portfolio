@@ -17,6 +17,7 @@ a {
   margin-right: 1vmin;
   margin-left: 1vmin;
   text-shadow: -.25px .25px black;
+  text-decoration: none;
 }
 
 a:hover {
@@ -178,6 +179,7 @@ button:hover {
 }
 
 .footer {
+font-size: 2vmin;
 position: absolute;
 width: 100%;
 text-align: center;
