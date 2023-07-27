@@ -59,14 +59,14 @@ const Bio = () => {
           using a diverse array of tech stacks, methodologies, approaches, languages and frameworks including (but not limited to):
           <br />
           <br />
-          <Link to="https://smokeapp-4be26bed9b46.herokuapp.com/">
+          <Link to="https://smokeapp-4be26bed9b46.herokuapp.com/" target="_blank">
             SMOKE
           </Link>
           <br />
           (MongoDB / Express.js / React.js / NODE.js)
           <br />
           <br />
-          <Link to="https://clearance-b56453d7410f.herokuapp.com/">
+          <Link to="https://clearance-b56453d7410f.herokuapp.com/" target="_blank">
             CLEARANCE
           </Link>
           <br />
