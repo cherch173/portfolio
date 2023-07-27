@@ -84,8 +84,8 @@ const Bio = () => {
         </p>
       </div>
       <br />
-      <Link to="/portfolio">
-        <button className="button">enter portfolio</button>
+      <Link to="/">
+        <button className="button">back</button>
       </Link>
       <br />
       <br />
