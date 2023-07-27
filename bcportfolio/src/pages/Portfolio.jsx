@@ -20,7 +20,7 @@ const Portfolio = () => {
         <div>
             <h3 className="headerText">Brian Cherchiglia</h3>
             <h5 className="subheaderText" ref={scrollDownRef}>Featured Web Applications</h5>
-            <Link to="public/Brian Cherchiglia Resume SE2023.pdf" target="_blank">
+            <Link to="/src/assets/Brian_Cherchiglia_Resume_SE2023.pdf" target="_blank">
                 <button className="scrollButton">download resume</button>
             </Link>
             <button className="scrollButton" onClick={scrollDown}>scroll down to games</button>
