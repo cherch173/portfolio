@@ -29,9 +29,9 @@ const Portfolio = () => {
                     <img className="portfolioImage" src="https://i.gifer.com/XTiU.gif" alt="smokeImage" />
                     <h3>SMOKE</h3>
                 </Link>
-                <label className="label" htmlFor="techStack">tech stack: </label>
+                <label className="label" htmlFor="techStack">tech stack </label>
                 <p>MERN [MongoDB | Express.js | React.js | NODE.js]</p>
-                <label className="label" htmlFor="description">description: </label>
+                <label className="label" htmlFor="description">description </label>
                 <p><span className="devText">SMOKE</span> is a social network I designed as a hub for intellectual property and creative endeavors. Using the expansive capabilities of React's built in react-router-dom features (such as useRef useContext and Link) I engineered a comment section unique to each card and (using nested arrays of objects) store user data and presence within several schemas, making data access between objects virtually global from just a simple "like."</p>
                 <Link to="http://www.github.com/cherch173/smoke" target='_blank'>
                     <button className="githubButton">github</button>
@@ -43,9 +43,9 @@ const Portfolio = () => {
                     <img className="portfolioImage" src="https://s3.us-east-2.amazonaws.com/clearance-bnp/5a8c9c.webp" alt="clearanceImage" />
                     <h3>CLEARANCE</h3>
                 </Link>
-                <label className="label" htmlFor="techStack">tech stack: </label>
+                <label className="label" htmlFor="techStack">tech stack </label>
                 <p>[Python | Django | postgreSQL | AWS S3 | Materialize | CSS]</p>
-                <label className="label" htmlFor="description">description: </label>
+                <label className="label" htmlFor="description">description </label>
                 <p>A fullstack web application that acts as a fully user-interactive database for confirmed declassified UAP / UFO cases, sightings and reports.  Utilizing several different full CRUD operations, users can read articles, view images, gifs and videos (spanning from entire documentaries to military footage and radar data) in high resolution and even access official government documentation.</p>
                 <p><span className="devText">CLEARANCE</span>was built as a group endeavor with two other developers (Platin Syla & Nicholas Emmons) where I served as Git Manager, Project Manager and the primary composer for entites with one-to-many relationships.  In addition to my project leadership and backend design, I also spearheaded Frontend development combining raw CSS with Google's UI library Materialize.</p>
                 <br />
@@ -59,9 +59,9 @@ const Portfolio = () => {
                     <img className="portfolioImage" src="https://github.com/cherch173/slice/raw/main/public/images/shaqPizza.gif" alt="sliceImage" />
                     <h3>SLICE</h3>
                 </Link>
-                <label className="label" htmlFor="techStack">tech stack: </label>
+                <label className="label" htmlFor="techStack">tech stack </label>
                 <p>[Express.js | NODE.js | OAuth | CSS | Javascript | HTML]</p>
-                <label className="label" htmlFor="description">description: </label>
+                <label className="label" htmlFor="description">description </label>
                 <p>The official end to the argument.  Long have New Yorkers argued over what the <i>best</i> pizza in the city is.  Well, in order to quell that debate I made <span className="devText">SLICE</span>: an Express.js application that acts as a power rankings site to achieve that exact goal using an aggregate scale of 5.</p>
                 <br />
                 <Link to="http://www.github.com/cherch173/slice" target='_blank'>
@@ -91,9 +91,9 @@ const Portfolio = () => {
                     <img className="portfolioImage" src="https://thumbs.gfycat.com/PowerlessUncomfortableComet.webp" alt="charliemurphyImage" />
                     <h3>CONNECT FOUR, CHARLIE MURPHY</h3>
                 </Link>
-                <label className="label" htmlFor="techStack">tech stack: </label>
+                <label className="label" htmlFor="techStack">tech stack </label>
                 <p>[Javascript | CSS | HTML]</p>
-                <label className="label" htmlFor="description">description: </label>
+                <label className="label" htmlFor="description">description </label>
                 <p>You're Charlie Murphy.
                 </p>
                 <p>
@@ -113,7 +113,7 @@ const Portfolio = () => {
             <div className="card">
                 <Link to="https://boomtownpong.surge.sh/" target="_blank">
                     <img className="portfolioImage" src="https://media.tenor.com/IrfZ5LGhnckAAAAC/letterkenny-boomtown.gif" alt="boomtownPongImage" />
-                    <h3>BOOMTOWN [Pong Edition]</h3>
+                    <h3>BOOMTOWN</h3>
                 </Link>
                 <label className="label" htmlFor="techStack">tech stack </label>
                 <p>[Javascript | CSS | HTML]</p>
