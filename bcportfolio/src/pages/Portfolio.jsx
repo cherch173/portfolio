@@ -89,7 +89,7 @@ const Portfolio = () => {
             </div>
             <br />
 
-            <h6 >Featured Browser-Based Games</h6>
+            <h6 ref={scrollUpRef}>Featured Browser-Based Games</h6>
             <div className="card">
                 <Link to="https://gritty.surge.sh/" target="_blank">
                     <img className="portfolioImage" src="https://media.tenor.com/FPeoC2M4Z3IAAAAC/gritty-flyers-mascot.gif" alt="sliceImage" />
@@ -145,7 +145,7 @@ const Portfolio = () => {
                 </Link>
             </div>
             <br />
-            <button ref={scrollUpRef} className="scrollButton" onClick={scrollUp}>
+            <button className="scrollButton" onClick={scrollUp}>
                 scroll up to apps
             </button>
         </div>
