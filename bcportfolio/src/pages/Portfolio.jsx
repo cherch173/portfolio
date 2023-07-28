@@ -30,7 +30,7 @@ const Portfolio = () => {
 
     return (
         <div>
-            <h3 className="headerText">Brian Cherchiglia</h3>
+            <h3 className="headerText" ref={scrollDownRef}>Brian Cherchiglia</h3>
             <h6 className="subheaderText">software engineer - fullstack web developer </h6>
             <p>
                 <Link to="http://www.linkedin.com/in/bcherchiglia" target="_blank">
@@ -42,7 +42,7 @@ const Portfolio = () => {
                 </Link>
             </p>
             <button className="scrollButton" onClick={scrollDown}>scroll down to games</button>
-            <h6 ref={scrollDownRef}>Featured Web Applications</h6>
+            <h6>Featured Web Applications</h6>
             <div className="card">
                 <Link to="https://smokeapp-4be26bed9b46.herokuapp.com/" target="_blank">
                     <img className="portfolioImage" src="https://i.gifer.com/XTiU.gif" alt="smokeImage" />
