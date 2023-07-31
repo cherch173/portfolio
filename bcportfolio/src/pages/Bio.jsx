@@ -8,12 +8,12 @@ const Bio = () => {
   }
 
   const handleClick = () => {
-    fetch('/public/Brian_Cherchiglia_Resume_SE2023.pdf').then(res => {
+    fetch('/Brian_Cherchiglia_Resume_SE2023.pdf').then(res => {
       res.blob().then(blob => {
         const fileURL = window.URL.createObjectURL(blob);
         let alink = document.createElement('a');
         alink.href = fileURL;
-        alink.download = '/public/Brian_Cherchiglia_Resume_SE2023.pdf';
+        alink.download = '/Brian_Cherchiglia_Resume_SE2023.pdf';
         alink.click()
       })
     })
@@ -36,7 +36,7 @@ const Bio = () => {
           <button className="githubButton">github</button>
         </Link>
         <button className="scrollButton" target="_blank">
-          <a className="whiteText" href="/public/Brian_Cherchiglia_Resume_SE2023.pdf" download>resume</a>
+          <a className="whiteText" href="/Brian_Cherchiglia_Resume_SE2023.pdf" download>resume</a>
         </button>
       </p>
       <img

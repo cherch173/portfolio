@@ -22,12 +22,12 @@ const Portfolio = () => {
 
     const handleClick = () => {
 
-        fetch('public/Brian_Cherchiglia_Resume_SE2023.pdf').then(res => {
+        fetch('/Brian_Cherchiglia_Resume_SE2023.pdf').then(res => {
             res.blob().then(blob => {
                 const fileURL = window.URL.createObjectURL(blob);
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'public/Brian_Cherchiglia_Resume_SE2023.pdf';
+                alink.download = '/Brian_Cherchiglia_Resume_SE2023.pdf';
                 alink.click()
             })
         })
@@ -42,9 +42,7 @@ const Portfolio = () => {
                 <Link to="http://www.linkedin.com/in/bcherchiglia" target="_blank">
                     <button className="linkedinButton">linkedin</button>
                 </Link>
-                <button className="scrollButton" target="_blank">
-                    <a className="whiteText" href="/public/Brian_Cherchiglia_Resume_SE2023.pdf" download>resume</a>
-                </button>
+                <button onClick={handleClick} className="scrollButton" target="_blank">resume</button>
                 <Link to="http://www.github.com/cherch173" target="_blank">
                     <button className="githubButton">github</button>
                 </Link>
