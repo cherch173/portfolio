@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom'
 
 const Bio = () => {
 
-
+  const getCurrentYear = () => {
+    return new Date().getUTCFullYear()
+  }
 
   const handleClick = () => {
     fetch('public/Brian_Cherchiglia_Resume_SE2023.pdf').then(res => {
@@ -33,7 +35,7 @@ const Bio = () => {
         <Link to="http://www.github.com/cherch173" target="_blank">
           <button className="githubButton">github</button>
         </Link>
-        {/* <button onClick={handleClick} className="scrollButton" target="_blank">resume</button> */}
+        <button onClick={handleClick} className="scrollButton" target="_blank">resume</button>
       </p>
       <img
         src="https://avatars.githubusercontent.com/u/130800271?v=4"
@@ -76,8 +78,7 @@ const Bio = () => {
           <br />
 
         </p>
-        <a href="http://www.github.com/cherch173" target="_blank">GITHUB HEATMAP</a>
-        {/* <div className="heatmap"></div> */}
+        <a href="http://www.github.com/cherch173" target="_blank">GITHUB HEATMAP (1000+ commits in {getCurrentYear()})</a>
         <img className="funImage" src="https://ghchart.rshah.org/cherch173" alt="cherch173's Github chart" />
         <p>
           In 2023, I

@@ -36,7 +36,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Portfolio />} />
-Í          <Route path="/bio" element={<Bio />} />
+          <Route path="/bio" element={<Bio />} />
         </Routes>
 
         <br />
