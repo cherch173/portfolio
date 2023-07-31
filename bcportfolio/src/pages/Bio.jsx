@@ -53,7 +53,10 @@ const Bio = () => {
           <span className="devText">
             web developer
           </span>
-          with a passion for programming and an extensive background in the music industry as both a performing artist an music publsher.
+          with a passion for programming and an extensive background in the music industry as both a performing artist an music publisher.
+        </p>
+        <p>
+          Throughout this first exciting chapter in my career, I also helped to soundtrack titles and trailers for several major video game franchises such as <i>Grand Theft Auto, Fallout, EA Sports (FIFA, Madden), NBA 2k, Guitar Hero </i> and more.
         </p>
         <p>
           Within my first year of web development, I'd already built and deployed several
