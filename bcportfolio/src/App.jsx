@@ -36,8 +36,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Portfolio />} />
-          {/* <Route path="/home" element={<Home />} /> */}
-          <Route path="/bio" element={<Bio />} />
+Í          <Route path="/bio" element={<Bio />} />
         </Routes>
 
         <br />

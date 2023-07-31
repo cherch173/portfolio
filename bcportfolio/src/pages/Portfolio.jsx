@@ -21,7 +21,7 @@ const Portfolio = () => {
     }
 
     const handleClick = () => {
-        
+
         fetch('public/Brian_Cherchiglia_Resume_SE2023.pdf').then(res => {
             res.blob().then(blob => {
                 const fileURL = window.URL.createObjectURL(blob);
