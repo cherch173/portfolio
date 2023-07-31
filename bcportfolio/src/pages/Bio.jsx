@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Bio = () => {
 
-  
+
 
   const handleClick = () => {
     fetch('public/Brian_Cherchiglia_Resume_SE2023.pdf').then(res => {
@@ -22,7 +22,7 @@ const Bio = () => {
     <div>
       <h3 className="headerText">
         <span className="whiteText">
-           Hi!
+          Hi!
         </span>
         I'm Brian.
       </h3>
