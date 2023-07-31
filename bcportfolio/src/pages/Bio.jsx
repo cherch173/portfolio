@@ -77,6 +77,7 @@ const Bio = () => {
 
         </p>
         <a href="http://www.github.com/cherch173" target="_blank">GITHUB HEATMAP</a>
+        {/* <div className="heatmap"></div> */}
         <img className="funImage" src="https://ghchart.rshah.org/cherch173" alt="cherch173's Github chart" />
         <p>
           In 2023, I
@@ -90,9 +91,6 @@ const Bio = () => {
       <Link to="/">
         <button className="button">back</button>
       </Link>
-      <br />
-      <br />
-      <br />
       <br />
       <br />
       <br />

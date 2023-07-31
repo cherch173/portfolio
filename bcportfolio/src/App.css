@@ -125,6 +125,13 @@ p {
   border-radius: 5px;
 }
 
+.heatmap {
+background-size: cover;
+background-image: url('https://ghchart.rshah.org/cherch173');
+width: 80vmin;
+height: 12vmin;
+}
+
 button {
   border-radius: 5px;
   color: whitesmoke;
