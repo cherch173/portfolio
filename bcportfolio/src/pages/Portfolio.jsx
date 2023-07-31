@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Portfolio = () => {
     const scrollDownRef = useRef()
+    const scrollallTheWayDownRef = useRef()
     const scrollUpRef = useRef()
 
 
@@ -13,6 +14,10 @@ const Portfolio = () => {
 
     const scrollDown = () => {
         scrollUpRef.current.scrollIntoView({ behavior: 'smooth' })
+    }
+
+    const scrollBottom = () => {
+        scrollallTheWayDownRef.current.scrollIntoView({ behavior: 'smooth' })
     }
 
     const handleClick = () => {
@@ -42,7 +47,8 @@ const Portfolio = () => {
                     <button className="githubButton">github</button>
                 </Link>
             </p>
-            <button className="scrollButton" onClick={scrollDown}>scroll down to games</button>
+            <button className="scrollButton" onClick={scrollDown}>jump to games</button>
+            <button className="scrollButton" onClick={scrollBottom}>scroll to bottom</button>
             <h6>Featured Web Applications</h6>
             <div className="card">
                 <Link to="https://smokeapp-4be26bed9b46.herokuapp.com/" target="_blank">
@@ -91,6 +97,9 @@ const Portfolio = () => {
             <br />
 
             <h6 ref={scrollUpRef}>Featured Browser-Based Games</h6>
+            <button className="scrollButton" onClick={scrollUp} ref={scrollallTheWayDownRef}>
+                jump up to apps
+            </button>
             <div className="card">
                 <Link to="https://gritty.surge.sh/" target="_blank">
                     <img className="portfolioImage" src="https://media.tenor.com/FPeoC2M4Z3IAAAAC/gritty-flyers-mascot.gif" alt="sliceImage" />
@@ -146,7 +155,7 @@ const Portfolio = () => {
                 </Link>
             </div>
             <br />
-            <button className="scrollButton" onClick={scrollUp}>
+            <button className="scrollButton" onClick={scrollUp} ref={scrollallTheWayDownRef}>
                 scroll up to apps
             </button>
         </div>
