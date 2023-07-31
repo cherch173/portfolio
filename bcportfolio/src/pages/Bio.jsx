@@ -8,12 +8,12 @@ const Bio = () => {
   }
 
   const handleClick = () => {
-    fetch('/Users/cherch/code/formal/portfolio/bcportfolio/public/Brian_Cherchiglia_Resume_SE2023.pdf').then(res => {
+    fetch('/public/Brian_Cherchiglia_Resume_SE2023.pdf').then(res => {
       res.blob().then(blob => {
         const fileURL = window.URL.createObjectURL(blob);
         let alink = document.createElement('a');
         alink.href = fileURL;
-        alink.download = '/Users/cherch/code/formal/portfolio/bcportfolio/public/Brian_Cherchiglia_Resume_SE2023.pdf';
+        alink.download = '/public/Brian_Cherchiglia_Resume_SE2023.pdf';
         alink.click()
       })
     })
@@ -82,7 +82,7 @@ const Bio = () => {
 
         </p>
         <Link className="gitLabel" to="http://www.github.com/cherch173" target="_blank">
-        GITHUB HEATMAP (1000+ commits in {getCurrentYear()})
+          GITHUB HEATMAP (1000+ commits in {getCurrentYear()})
         </Link>
         <img className="funImage" src="https://ghchart.rshah.org/cherch173" alt="cherch173's Github chart" />
         <p>
