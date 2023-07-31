@@ -42,7 +42,9 @@ const Portfolio = () => {
                 <Link to="http://www.linkedin.com/in/bcherchiglia" target="_blank">
                     <button className="linkedinButton">linkedin</button>
                 </Link>
-                {/* <button onClick={handleClick} className="scrollButton" target="_blank">resume</button> */}
+                <button className="scrollButton" target="_blank">
+                    <a className="whiteText" href="/public/Brian_Cherchiglia_Resume_SE2023.pdf" download>resume</a>
+                </button>
                 <Link to="http://www.github.com/cherch173" target="_blank">
                     <button className="githubButton">github</button>
                 </Link>

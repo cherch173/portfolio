@@ -35,7 +35,9 @@ const Bio = () => {
         <Link to="http://www.github.com/cherch173" target="_blank">
           <button className="githubButton">github</button>
         </Link>
-        <button onClick={handleClick} className="scrollButton" target="_blank">resume</button>
+        <button className="scrollButton" target="_blank">
+          <a className="whiteText" href="/public/Brian_Cherchiglia_Resume_SE2023.pdf" download>resume</a>
+        </button>
       </p>
       <img
         src="https://avatars.githubusercontent.com/u/130800271?v=4"
