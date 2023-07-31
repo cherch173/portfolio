@@ -83,6 +83,11 @@ h6 {
   font-size: 2vmin;
 }
 
+.gitLabel {
+  color: rgb(173, 173, 137);
+  font-size: 2vmin;
+}
+
 .grittyLabel {
   color: orange;
   text-shadow: -.25px .25px black;
