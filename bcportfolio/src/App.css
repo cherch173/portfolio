@@ -74,6 +74,7 @@ h6 {
 .whiteText {
   color: whitesmoke;
   text-shadow: -.25px .25px black;
+  margin-right: .25vmin;
 }
 
 .whiteText:hover {
