@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 
 const Bio = () => {
 
+  
+
   const handleClick = () => {
     fetch('public/Brian_Cherchiglia_Resume_SE2023.pdf').then(res => {
       res.blob().then(blob => {
@@ -74,7 +76,8 @@ const Bio = () => {
           <br />
 
         </p>
-
+        <a href="http://www.github.com/cherch173" target="_blank">GITHUB HEATMAP</a>
+        <img className="funImage" src="https://ghchart.rshah.org/cherch173" alt="cherch173's Github chart" />
         <p>
           In 2023, I
           <span className="devText">
