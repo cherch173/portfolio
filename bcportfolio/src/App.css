@@ -133,7 +133,7 @@ p {
 .heatmap {
   background-size: cover;
   background-image: url('https://ghchart.rshah.org/cherch173');
-  width: 80vmin;
+  max-width: 70vmin;
   height: 12vmin;
 }
 

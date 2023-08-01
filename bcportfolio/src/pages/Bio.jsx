@@ -1,7 +1,22 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
+import axios from 'axios'
 
-const Bio = () => {
+const Bio = (props) => {
+  const [commits, setCommits] = useState('')
+
+  const getCommits = async () => {
+    try {
+      const res = await axios.get(`https://ghchart.rshah.org/cherch173`)
+      setCommits(res.data)
+    } catch (error) {
+      throw error
+    }
+  }
+
+  useEffect(() => {
+    getCommits()
+  }, []);
 
   const getCurrentYear = () => {
     return new Date().getUTCFullYear()
