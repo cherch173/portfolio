@@ -86,7 +86,7 @@ const Bio = () => {
         <Link className="gitLabel" to="http://www.github.com/cherch173" target="_blank">
           GITHUB HEATMAP (1000+ commits in {getCurrentYear()})
         </Link>
-        <img className="funImage" src="https://ghchart.rshah.org/cherch173" alt="cherch173's Github chart" />
+        <img className="funImage" src="https://ghchart.rshah.org/cherch173" alt="cherch173's Github Heat Map" />
         <p>
           In 2023, I
           <span className="devText">
