@@ -42,7 +42,7 @@ const Portfolio = () => {
                 <Link to="http://www.linkedin.com/in/bcherchiglia" target="_blank">
                     <button className="linkedinButton">linkedin</button>
                 </Link>
-                <button onClick={handleClick} className="scrollButton" target="_blank">resume</button>
+                {/* <button onClick={handleClick} className="scrollButton" target="_blank">resume</button> */}
                 <Link to="http://www.github.com/cherch173" target="_blank">
                     <button className="githubButton">github</button>
                 </Link>
