@@ -74,11 +74,8 @@ h6 {
 .whiteText {
   color: whitesmoke;
   text-shadow: -.25px .25px black;
-  margin-right: .25vmin;
-}
-
-.whiteText:hover {
-  color: rgb(15, 79, 15)
+  margin-right: .37vmin;
+  margin-left: .5vmin;
 }
 
 .label {
