@@ -80,7 +80,7 @@ const Bio = (props) => {
           with a passion for programming and an extensive background in the music industry as both a performing artist an music publisher.
         </p>
         <p>
-          During that exciting chapter in my career, I helped to soundtrack titles and trailers for several major video game franchises such as <i>Grand Theft Auto, Fallout, EA Sports (FIFA, Madden), NBA 2k, Guitar Hero </i> and more.
+          I helped to soundtrack titles and trailers for several major video game franchises such as <i>Grand Theft Auto, Fallout, EA Sports (FIFA, Madden), NBA 2k, Guitar Hero </i> and more.
         </p>
         <p>
           Within my first year of web development, I'd already built and deployed several
