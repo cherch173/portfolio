@@ -80,14 +80,14 @@ const Bio = (props) => {
           with a passion for programming and an extensive background in the music industry as both a performing artist an music publisher.
         </p>
         <p>
-          I helped to soundtrack titles and trailers for several major video game franchises such as <i>Grand Theft Auto, Fallout, EA Sports (FIFA, Madden), NBA 2k, Guitar Hero </i> and more.
+          I helped to soundtrack titles and trailers for several major video game franchises such as <i>Grand Theft Auto, Fallout, EA Sports (FIFA, Madden), NBA 2k, Guitar Hero </i> and more. Not only do I have experience working for Fortune 500 companies, I've also been a part of several startups and indies.
         </p>
         <p>
           Within my first year of web development, I'd already built and deployed several
           <span className="devText">
             fullstack web applications
           </span>
-          using a diverse array of tech stacks, methodologies, approaches, languages and frameworks including (but not limited to):
+          using a diverse array of tech stacks, methodologies, approaches, languages and frameworks including:
           <br />
           <br />
           <Link to="https://smokeapp-4be26bed9b46.herokuapp.com/" target="_blank">
