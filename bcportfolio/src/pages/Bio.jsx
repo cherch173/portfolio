@@ -92,14 +92,14 @@ const Bio = (props) => {
             SMOKE
           </Link>
           <br />
-          (MongoDB / Express.js / React.js / NODE.js)
+          [MongoDB | Express.js | REACT.js | NODE.js]
           <br />
           <br />
           <Link to="https://clearance-b56453d7410f.herokuapp.com/" target="_blank">
             CLEARANCE
           </Link>
           <br />
-          (Python / Django / postgreSQL / AWS S3)
+          [Python | Django | postgreSQL | AWS S3]
           <br />
 
         </p>
