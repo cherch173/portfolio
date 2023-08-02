@@ -18,8 +18,10 @@ const Bio = (props) => {
     getCommits()
   }, []);
 
-  const getCurrentYear = () => {
-    return new Date().getUTCFullYear()
+  const getCurrentDate = () => {
+    const date = new Date()
+    date.getUTCDate()
+    return date.toLocaleDateString()
   }
 
   const handleClick = () => {
@@ -104,7 +106,7 @@ const Bio = (props) => {
 
         </p>
         <Link className="gitLabel" to="http://www.github.com/cherch173" target="_blank">
-          GITHUB HEATMAP (1000+ commits in {getCurrentYear()})
+          GITHUB HEATMAP [<strong>{getCommits}1000+ commits</strong> as of {getCurrentDate()}]
         </Link>
         <img className="funImage" src="https://ghchart.rshah.org/cherch173" alt="cherch173's Github Heat Map" />
         <p>
