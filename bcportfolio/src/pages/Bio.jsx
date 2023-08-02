@@ -3,20 +3,20 @@ import { Link } from 'react-router-dom'
 import axios from 'axios'
 
 const Bio = (props) => {
-  const [commits, setCommits] = useState('')
+  // const [commits, setCommits] = useState('')
 
-  const getCommits = async () => {
-    try {
-      const res = await axios.get(`https://ghchart.rshah.org/cherch173`)
-      setCommits(res.data)
-    } catch (error) {
-      throw error
-    }
-  }
+  // const getCommits = async () => {
+  //   try {
+  //     const res = await axios.get(`https://ghchart.rshah.org/cherch173`)
+  //     setCommits(res.data)
+  //   } catch (error) {
+  //     throw error
+  //   }
+  // }
 
-  useEffect(() => {
-    getCommits()
-  }, []);
+  // useEffect(() => {
+  //   getCommits()
+  // }, []);
 
   const getCurrentDate = () => {
     const date = new Date()
@@ -106,7 +106,7 @@ const Bio = (props) => {
 
         </p>
         <Link className="gitLabel" to="http://www.github.com/cherch173" target="_blank">
-          GITHUB HEATMAP [<strong>{getCommits}1000+ commits</strong> as of {getCurrentDate()}]
+          GITHUB HEATMAP [<strong>1000+</strong> commits as of {getCurrentDate()}]
         </Link>
         <img className="funImage" src="https://ghchart.rshah.org/cherch173" alt="cherch173's Github Heat Map" />
         <p>
