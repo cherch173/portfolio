@@ -60,6 +60,11 @@ const Bio = (props) => {
         alt="profileImage"
       />
       <div className="card">
+        <p>Welcome, my friends. Welcome...to my
+          <span className="devText">
+            machines.
+          </span>
+        </p>
         <p>
           I'm a
           <span className="devText">
@@ -107,7 +112,10 @@ const Bio = (props) => {
           <span className="devText">
             graduated
           </span>
-          from General Assembly's Software Engineering 2.0 Immersive (which entailed 420 hours of real-world programming experience) and have quickly found refuge in the endless creative possibilities of web development.
+          from General Assembly's Software Engineering 2.0 Immersive (which entailed 420 hours of real-world programming experience and application design & architecture) and have quickly found refuge in the endless creative possibilities of code.
+        </p>
+        <p>
+          I hope you enjoy perusing my catalog as much as I enjoyed building it. Feel free to<span className="devText">contact me</span>using the link above in the<span className="devText">nav</span>regarding potential opportunities, professional inquiries or if you'd just like to talk shop.
         </p>
       </div>
       <br />
