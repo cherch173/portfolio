@@ -62,7 +62,7 @@ const Bio = (props) => {
         alt="profileImage"
       />
       <div className="card">
-        <p>Welcome, my friends. Welcome...to my
+        <p>Welcome, my friends. Welcome to my
           <span className="devText">
             machines.
           </span>
