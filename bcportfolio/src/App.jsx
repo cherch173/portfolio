@@ -4,6 +4,7 @@ import Nav from './components/Nav'
 import Home from './pages/Home'
 import Bio from './pages/Bio'
 import Portfolio from './pages/Portfolio'
+import Skills from './pages/Skills'
 import './App.css'
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Portfolio />} />
           <Route path="/bio" element={<Bio />} />
+          <Route path="/skills" element={<Skills />} />
         </Routes>
 
         <br />

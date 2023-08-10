@@ -120,6 +120,12 @@ p {
   border-radius: 5%;
 }
 
+.skillsImage {
+  max-width: 15vmin;
+  height: 15vmin;
+  border-radius: 5%;
+}
+
 .funImage {
   max-width: 66vmin;
   border-radius: 5px;
