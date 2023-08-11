@@ -115,6 +115,11 @@ p {
 
 }
 
+.list {
+  text-align: center;
+  list-style: upper-roman;
+}
+
 .profileImage {
   max-width: 30vmin;
   border-radius: 5%;
