@@ -126,8 +126,8 @@ p {
 }
 
 .skillsImage {
-  max-width: 13vmin;
-  height: 13vmin;
+  max-width: 15vmin;
+  height: 15vmin;
   border-radius: 5%;
   opacity: 86%;
   cursor: pointer;
@@ -144,8 +144,8 @@ p {
 }
 
 .funImage {
-  max-width: 13vmin;
-  height: 13vmin;
+  max-width: 15vmin;
+  height: 15vmin;
   border-radius: 5%;
   opacity: 86%;
   cursor: pointer;
