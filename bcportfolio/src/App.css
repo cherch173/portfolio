@@ -143,15 +143,9 @@ p {
 }
 
 .funImage {
-  max-width: 15vmin;
-  height: 15vmin;
-  border-radius: 5%;
-  opacity: 86%;
-  cursor: pointer;
-  margin: .5vmin auto;
-  justify-content: center;
-  align-items: center;
-  display: inline-flex;
+  border-radius: 5px;
+  max-width: 66.6vmin;
+  margin: 1vmin;
 }
 
 .portfolioImage {
