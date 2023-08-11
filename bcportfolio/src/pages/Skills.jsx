@@ -58,10 +58,13 @@ const Skills = () => {
             </Link>
             <br />
 
-            <div className="card">
+            {/* <div className="card">
                 <h3>Soft Skills</h3>
-            </div>
-
+            </div> */}
+            <br />
+            <Link to="/">
+                <button className="button">back</button>
+            </Link>
         </div>
     )
 }
