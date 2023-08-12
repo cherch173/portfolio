@@ -38,17 +38,10 @@ const Portfolio = () => {
         <div>
             <h3 className="headerText" ref={scrollDownRef}>Brian Cherchiglia</h3>
             <h6 className="subheaderText">software engineer - fullstack web developer </h6>
-            <p>
-                <Link to="http://www.linkedin.com/in/bcherchiglia" target="_blank">
-                    <button className="linkedinButton">linkedin</button>
-                </Link>
-                {/* <button onClick={handleClick} className="scrollButton" target="_blank">resume</button> */}
-                <Link to="http://www.github.com/cherch173" target="_blank">
-                    <button className="githubButton">github</button>
-                </Link>
-            </p>
             <button className="scrollButton" onClick={scrollDown}>jump to games</button>
             <button className="scrollButton" onClick={scrollBottom}>scroll to bottom</button>
+            <br />
+            <br />
             <h6>Featured Web Applications</h6>
             <div className="card">
                 <Link to="https://smokeapp-4be26bed9b46.herokuapp.com/" target="_blank">

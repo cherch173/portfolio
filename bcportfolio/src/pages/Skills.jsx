@@ -23,6 +23,7 @@ const Skills = () => {
     return (
         <div>
             <h3 className="headerText" ref={scrollDownRef}>Skills</h3>
+            {/* <button className="scrollButton" onClick={scrollBottom}>scroll down</button> */}
             <h3 className="">Frameworks x Languages</h3>
             <Link to="https://react.dev/" target="_blank">
                 <img className="skillsImage" src="https://cdn.iconscout.com/icon/free/png-256/free-react-1-282599.png?f=webp" alt="reactImage" />
@@ -99,7 +100,7 @@ const Skills = () => {
             </button>
             <br />
             <Link to="/">
-                <button className="button"ref={scrollUpRef}>back</button>
+                <button className="button" ref={scrollUpRef}>back</button>
             </Link>
         </div>
     )
