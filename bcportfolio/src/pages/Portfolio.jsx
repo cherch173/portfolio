@@ -45,7 +45,7 @@ const Portfolio = () => {
             <Link to="http://www.linkedin.com/in/bcherchiglia" target="_blank">
                 <img className="socialImage" src="https://logodix.com/logo/1280091.png" alt="linkedInButton" />
             </Link>
-            <Link to="/resume" target="_blank">
+            <Link to="/" onClick={handleClick} >
                 <img className="socialImage" src="https://png.pngtree.com/png-vector/20190412/ourlarge/pngtree-vector-resume-icon-png-image_932447.jpg" alt="resumeImage" />
             </Link>
             <br />
