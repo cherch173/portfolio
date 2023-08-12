@@ -38,19 +38,16 @@ const Portfolio = () => {
         <div>
             <h3 className="headerText" ref={scrollDownRef}>Brian Cherchiglia</h3>
             <h6 className="subheaderText">software engineer - fullstack web developer </h6>
-        <Link to="http://www.linkedin.com/in/bcherchiglia" target="_blank">
-          <img className="socialImage" src="https://logodix.com/logo/1280091.png" alt="linkedInButton" />
-          {/* <button className="linkedinButton">linkedin</button> */}
-        </Link>
-        <Link to="http://www.github.com/cherch173" target="_blank">
-          <img className="socialImage" src="https://i.pinimg.com/736x/30/b1/50/30b150cd489202db131009ac9540cec0.jpg" alt="gitHubText" />
-          {/* <button className="githubButton">github</button> */}
-        </Link>
-        {/* <button onClick={handleClick} className="scrollButton" target="_blank">resume</button> */}
-        {/* <Link to="/resume" target="_blank">
-          <img src="" alt="" />
-        </Link> */}
-        <br />
+            <Link to="http://www.github.com/cherch173" target="_blank">
+                <img className="socialImage" src="public/github-logo-black.jpg" alt="gitHubText" />
+            </Link>
+            <Link to="http://www.linkedin.com/in/bcherchiglia" target="_blank">
+                <img className="socialImage" src="https://logodix.com/logo/1280091.png" alt="linkedInButton" />
+            </Link>
+            <Link to="/resume" target="_blank">
+                <img className="socialImage" src="https://png.pngtree.com/png-vector/20190412/ourlarge/pngtree-vector-resume-icon-png-image_932447.jpg" alt="resumeImage" />
+            </Link>
+            <br />
             <button className="scrollButton" onClick={scrollDown}>jump to games</button>
             <button className="scrollButton" onClick={scrollBottom}>scroll to bottom</button>
             <br />

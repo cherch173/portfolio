@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Bio from './pages/Bio'
 import Portfolio from './pages/Portfolio'
 import Skills from './pages/Skills'
+import Resume from './components/Resume'
 import './App.css'
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
           <Route path="/" element={<Portfolio />} />
           <Route path="/bio" element={<Bio />} />
           <Route path="/skills" element={<Skills />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
 
         <br />
