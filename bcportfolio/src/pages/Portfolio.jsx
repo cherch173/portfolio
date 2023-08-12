@@ -44,9 +44,9 @@ const Portfolio = () => {
             <Link to="http://www.linkedin.com/in/bcherchiglia" target="_blank">
                 <img className="socialImage" src="https://logodix.com/logo/1280091.png" alt="linkedInButton" />
             </Link>
-            <Link to="/" onClick={handleClick} >
+            {/* <Link to="/resume" onClick={handleClick} >
                 <img className="socialImage" src="https://png.pngtree.com/png-vector/20190412/ourlarge/pngtree-vector-resume-icon-png-image_932447.jpg" alt="resumeImage" />
-            </Link>
+            </Link> */}
             <br />
             <button className="scrollButton" onClick={scrollDown}>jump to games</button>
             <button className="scrollButton" onClick={scrollBottom}>scroll to bottom</button>

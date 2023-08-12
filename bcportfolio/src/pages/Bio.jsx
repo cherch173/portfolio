@@ -45,22 +45,20 @@ const Bio = (props) => {
           Brian.
         </span>
       </h3>
-      <p>
-        <Link to="http://www.linkedin.com/in/bcherchiglia" target="_blank">
-          <button className="linkedinButton">linkedin</button>
-        </Link>
-        <Link to="http://www.github.com/cherch173" target="_blank">
-          <button className="githubButton">github</button>
-        </Link>
-        {/* <button className="scrollButton" target="_blank">
-          <a className="whiteText" href="/Brian_Cherchiglia_Resume_SE2023.pdf" download>resume</a>
-        </button> */}
-      </p>
+      <br />
       <img
         src="https://avatars.githubusercontent.com/u/130800271?v=4"
         className="profileImage"
         alt="profileImage"
       />
+      <br />
+        <Link to="http://www.github.com/cherch173" target="_blank">
+          <img className="socialImage" src="/github-logo-black.jpg" alt="gitHubText" />
+        </Link>
+        <Link to="http://www.linkedin.com/in/bcherchiglia" target="_blank">
+          <img className="socialImage" src="https://logodix.com/logo/1280091.png" alt="linkedInButton" />
+        </Link>
+      
       <div className="card">
         <p>Welcome, my friends. Welcome to my
           <span className="devText">
@@ -80,16 +78,16 @@ const Bio = (props) => {
           with a passion for programming and an extensive background in the music industry as both a performing artist and a music publisher.
         </p>
         <p>
-          I helped to soundtrack titles and trailers for several major video game franchises such as <i>Grand Theft Auto, Fallout, EA Sports (FIFA, Madden), NBA 2k, Guitar Hero </i> and more. Not only do I have experience working for Fortune 500 companies, I've also been a part of several startups and indies.
+          I also helped to soundtrack titles and trailers for several major video game franchises such as <i>Grand Theft Auto, Fallout, EA Sports (FIFA, Madden), NBA 2k, Guitar Hero </i> and more. Not only do I have experience working for Fortune 500 companies, I've also been a part of several startups and indies.
         </p>
         <p>
           Within my first year of web development, I'd already built and deployed several
           <span className="devText">
             fullstack web applications
           </span>
-          using a diverse array of tech stacks, methodologies, approaches, languages and frameworks including:
+          using a diverse array of tech stacks, methodologies, languages and frameworks including:
           <br />
-          <br />
+          {/* <br />
           <Link to="https://smokeapp-4be26bed9b46.herokuapp.com/" target="_blank">
             SMOKE
           </Link>
@@ -102,7 +100,7 @@ const Bio = (props) => {
           </Link>
           <br />
           [Python | Django | postgreSQL | AWS S3]
-          <br />
+          <br /> */}
 
         </p>
         <Link className="gitLabel" to="http://www.github.com/cherch173" target="_blank">
