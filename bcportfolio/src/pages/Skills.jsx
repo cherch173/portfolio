@@ -62,6 +62,21 @@ const Skills = () => {
                 <h3>Soft Skills</h3>
             </div> */}
             <br />
+
+            <br />
+            <h6 className="subheaderText">Soft Skills</h6>
+            <div className="card">
+                <li>Git Management</li>
+                <li>Organization</li>
+                <li>Creativity</li>
+                <li>Time Management</li>
+                <li>Leadership</li>
+                <li>Public Speaking</li>
+                <li>Vision</li>
+                <li>Curation</li>
+                <li>Remote Work</li>
+            </div>
+            <br />
             <Link to="/">
                 <button className="button">back</button>
             </Link>
