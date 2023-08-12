@@ -34,7 +34,6 @@ const Portfolio = () => {
         })
     }
 
-
     return (
         <div>
             <h3 className="headerText" ref={scrollDownRef}>Brian Cherchiglia</h3>
