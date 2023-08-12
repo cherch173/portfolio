@@ -3,9 +3,26 @@ import { Link } from 'react-router-dom'
 import { useRef, useState, useEffect } from 'react'
 
 const Skills = () => {
+    const scrollDownRef = useRef()
+    const scrollallTheWayDownRef = useRef()
+    const scrollUpRef = useRef()
+
+
+    const scrollUp = () => {
+        scrollDownRef.current.scrollIntoView({ behavior: 'smooth' })
+    }
+
+    const scrollDown = () => {
+        scrollUpRef.current.scrollIntoView({ behavior: 'smooth' })
+    }
+
+    const scrollBottom = () => {
+        scrollallTheWayDownRef.current.scrollIntoView({ behavior: 'smooth' })
+    }
+
     return (
         <div>
-            <h3 className="headerText">Skills</h3>
+            <h3 className="headerText" ref={scrollDownRef}>Skills</h3>
             <h3 className="">Frameworks x Languages</h3>
             <Link to="https://react.dev/" target="_blank">
                 <img className="skillsImage" src="https://cdn.iconscout.com/icon/free/png-256/free-react-1-282599.png?f=webp" alt="reactImage" />
@@ -58,13 +75,8 @@ const Skills = () => {
             </Link>
             <br />
 
-            {/* <div className="card">
-                <h3>Soft Skills</h3>
-            </div> */}
             <br />
-
-            <br />
-            <h6 className="subheaderText">Soft Skills</h6>
+            <h3 className="">Soft Skills</h3>
             <div className="card">
                 <li>Git Management</li>
                 <li>Organization</li>
@@ -82,8 +94,12 @@ const Skills = () => {
                 <li>Markdown Text</li>
             </div>
             <br />
+            <button className="scrollButton" onClick={scrollUp} ref={scrollallTheWayDownRef}>
+                scroll up
+            </button>
+            <br />
             <Link to="/">
-                <button className="button">back</button>
+                <button className="button"ref={scrollUpRef}>back</button>
             </Link>
         </div>
     )
