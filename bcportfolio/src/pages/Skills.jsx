@@ -74,6 +74,9 @@ const Skills = () => {
                 <li>Public Speaking</li>
                 <li>Vision</li>
                 <li>Curation</li>
+                <li>Compassion</li>
+                <li>Civil Rights Activism</li>
+                <li>Mental Health Advocacy</li>
                 <li>Remote Work</li>
             </div>
             <br />
