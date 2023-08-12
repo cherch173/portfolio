@@ -111,7 +111,8 @@ p {
 
 .card:hover {
   background-color: rgb(51, 71, 51);
-
+  box-shadow: 0px 0px 1px 1px rgba(119, 185, 148, .73);
+  transition: ease-in 142ms;
 }
 
 .list {
@@ -137,9 +138,47 @@ p {
 }
 
 .skillsImage:hover {
-  transform: scale(105%);
-  transition: ease-in 142ms;
+  transform: scale(103%);
+  transition: ease-in 173ms;
   opacity: 100%;
+  box-shadow: 0px 0px 2px 2px whitesmoke;
+}
+
+.noSquareSkillsImage {
+  max-width: 20vmin;
+  height: 20vmin;
+  border-radius: 5%;
+  opacity: 86%;
+  cursor: pointer;
+  margin: .5vmin auto;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.noSquareSkillsImage:hover {
+  transform: scale(103%);
+  transition: ease-in 173ms;
+  opacity: 100%;
+}
+
+.whiteSquareSkillsImage {
+  max-width: 20vmin;
+  height: 20vmin;
+  border-radius: 5%;
+  opacity: 86%;
+  cursor: pointer;
+  margin: .5vmin auto;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.whiteSquareSkillsImage:hover {
+  transform: scale(103%);
+  transition: ease-in 173ms;
+  opacity: 100%;
+  box-shadow: 0px 0px 2px 2px rgb(183, 220, 183);
 }
 
 .funImage {
