@@ -85,7 +85,7 @@ const Bio = (props) => {
           <span className="devText">
             fullstack web applications
           </span>
-          using a diverse array of tech stacks, methodologies, languages and frameworks including:
+          using a diverse array of tech stacks, methodologies, languages and frameworks including those deployed here, as well as countless others.
           <br />
           {/* <br />
           <Link to="https://smokeapp-4be26bed9b46.herokuapp.com/" target="_blank">
