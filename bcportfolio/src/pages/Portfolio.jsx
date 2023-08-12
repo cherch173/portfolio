@@ -37,7 +37,7 @@ const Portfolio = () => {
     return (
         <div>
             <h3 className="headerText" ref={scrollDownRef}>Brian Cherchiglia</h3>
-            <h6 className="subheaderText">Software Engineer | Full Stack Web Developer </h6>
+            <h6 className="subheaderText">Software Engineer - Full Stack Web Developer </h6>
             <Link to="http://www.github.com/cherch173" target="_blank">
                 <img className="socialImage" src="/github-logo-black.jpg" alt="gitHubText" />
             </Link>
