@@ -232,7 +232,7 @@ p {
 button {
   border-radius: 5px;
   color: whitesmoke;
-  background-color: seagreen;
+  background-color: rgb(137, 173, 137);
   font-size: 2vmin;
   border: 1px solid rgb(15, 79, 15);
 }
@@ -283,7 +283,7 @@ button:hover {
 .scrollButton {
   border-radius: 5px;
   color: whitesmoke;
-  background-color: seagreen;
+  background-color: rgb(137, 173, 137);
   font-size: 2vmin;
   border: 1px solid rgb(15, 79, 15);
   margin: 1vmin;
