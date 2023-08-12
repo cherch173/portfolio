@@ -40,7 +40,7 @@ const Bio = (props) => {
   return (
     <div>
       <h3 className="headerText">
-        Hi! I'm
+        Hi! I'm 
         <span className="whiteText">
           Brian.
         </span>
@@ -51,6 +51,7 @@ const Bio = (props) => {
         className="profileImage"
         alt="profileImage"
       />
+      <br />
       <br />
         <Link to="http://www.github.com/cherch173" target="_blank">
           <img className="socialImage" src="/github-logo-black.jpg" alt="gitHubText" />

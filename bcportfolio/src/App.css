@@ -74,7 +74,7 @@ h6 {
   color: whitesmoke;
   text-shadow: -.25px .25px black;
   margin-right: .37vmin;
-  margin-left: .5vmin;
+  margin-left: 1vmin;
 }
 
 .label {
@@ -107,6 +107,8 @@ p {
   border-radius: 5px;
   border: 1px solid blanchedalmond;
   background-color: rgba(32, 45, 32, .73);
+  box-shadow: 0px 0px 1px 1px black;
+
 }
 
 .card:hover {
@@ -122,13 +124,15 @@ p {
 
 .profileImage {
   max-width: 30vmin;
-  border-radius: 5%;
+  border-radius: 10%;
+  box-shadow: 0px 0px 1px 1px black;
+
 }
 
 .skillsImage {
   max-width: 20vmin;
   height: 20vmin;
-  border-radius: 5%;
+  border-radius: 10%;
   opacity: 86%;
   cursor: pointer;
   margin: .5vmin auto;
@@ -147,7 +151,7 @@ p {
 .noSquareSkillsImage {
   max-width: 20vmin;
   height: 20vmin;
-  border-radius: 5%;
+  border-radius: 10%;
   opacity: 86%;
   cursor: pointer;
   margin: .5vmin auto;
@@ -165,7 +169,7 @@ p {
 .whiteSquareSkillsImage {
   max-width: 20vmin;
   height: 20vmin;
-  border-radius: 5%;
+  border-radius: 10%;
   opacity: 86%;
   cursor: pointer;
   margin: .5vmin auto;
@@ -206,7 +210,7 @@ p {
 
 .socialImage {
   max-width: 8vmin;
-  border-radius: 50%;
+  border-radius: 10%;
   opacity: 86%;
   margin: 1.5vmin;
   box-shadow: 0px 0px .5px .5px rgb(0, 0, 0);

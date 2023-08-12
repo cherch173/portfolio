@@ -48,8 +48,8 @@ const Portfolio = () => {
                 <img className="socialImage" src="https://png.pngtree.com/png-vector/20190412/ourlarge/pngtree-vector-resume-icon-png-image_932447.jpg" alt="resumeImage" />
             </Link> */}
             <br />
-            <button className="scrollButton" onClick={scrollDown}>jump to games</button>
-            <button className="scrollButton" onClick={scrollBottom}>scroll to bottom</button>
+            <button className="scrollButton" onClick={scrollDown}>go to games</button>
+            <button className="scrollButton" onClick={scrollBottom}>beam down</button>
             <br />
             <br />
             <h6>Featured Web Applications</h6>
@@ -101,7 +101,7 @@ const Portfolio = () => {
 
             <h6 ref={scrollUpRef}>Featured Browser-Based Games</h6>
             <button className="scrollButton" onClick={scrollUp} ref={scrollallTheWayDownRef}>
-                jump up to apps
+                go to apps
             </button>
             <div className="card">
                 <Link to="https://gritty.surge.sh/" target="_blank">
@@ -159,7 +159,7 @@ const Portfolio = () => {
             </div> */}
             <br />
             <button className="scrollButton" onClick={scrollUp} ref={scrollallTheWayDownRef}>
-                scroll up to apps
+                beam up
             </button>
         </div>
     )
