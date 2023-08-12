@@ -5,7 +5,7 @@ import Home from './pages/Home'
 import Bio from './pages/Bio'
 import Portfolio from './pages/Portfolio'
 import Skills from './pages/Skills'
-import Resume from './components/Resume'
+import Resume from './pages/Resume'
 import './App.css'
 
 function App() {
