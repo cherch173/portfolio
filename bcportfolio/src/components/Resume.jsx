@@ -6,8 +6,8 @@ const Resume = () => {
         <div>
             <h3>Resume</h3>
             <div className="card">
-                <img className="resumeImage" src="public/Brian_Cherchiglia_Resume_SE2023.jpg" alt="resumeImage" />
-                <img className="resumeImage" src="public/Brian_Cherchiglia_Resume_SE2023pg2.jpg" alt="resumepg2Image" />
+                <img className="resumeImage" src="/Brian_Cherchiglia_Resume_SE2023.jpg" alt="resumeImage" />
+                <img className="resumeImage" src="/Brian_Cherchiglia_Resume_SE2023pg2.jpg" alt="resumepg2Image" />
             </div>
             <br />
             <br />
