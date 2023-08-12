@@ -71,6 +71,7 @@ const Skills = () => {
                 <li>Creativity</li>
                 <li>Time Management</li>
                 <li>Leadership</li>
+                <li>Project Management</li>
                 <li>Public Speaking</li>
                 <li>Vision</li>
                 <li>Curation</li>
@@ -78,6 +79,7 @@ const Skills = () => {
                 <li>Civil Rights Activism</li>
                 <li>Mental Health Advocacy</li>
                 <li>Remote Work</li>
+                <li>Markdown Text</li>
             </div>
             <br />
             <Link to="/">
