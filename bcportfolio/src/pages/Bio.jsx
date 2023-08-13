@@ -40,7 +40,7 @@ const Bio = (props) => {
   return (
     <div>
       <h3 className="headerText">
-        Hi! I'm 
+        Hi! I'm
         <span className="whiteText">
           Brian.
         </span>
@@ -53,13 +53,13 @@ const Bio = (props) => {
       />
       <br />
       <br />
-        <Link to="http://www.github.com/cherch173" target="_blank">
-          <img className="socialImage" src="/github-logo-black.jpg" alt="gitHubText" />
-        </Link>
-        <Link to="http://www.linkedin.com/in/bcherchiglia" target="_blank">
-          <img className="socialImage" src="https://logodix.com/logo/1280091.png" alt="linkedInButton" />
-        </Link>
-      
+      <Link to="http://www.github.com/cherch173" target="_blank">
+        <img className="socialImage" src="/github-logo-black.jpg" alt="gitHubText" />
+      </Link>
+      <Link to="http://www.linkedin.com/in/bcherchiglia" target="_blank">
+        <img className="socialImage" src="https://logodix.com/logo/1280091.png" alt="linkedInButton" />
+      </Link>
+
       <div className="card">
         <p>Welcome, my friends. Welcome to my
           <span className="devText">
@@ -82,11 +82,11 @@ const Bio = (props) => {
           I also helped to soundtrack titles and trailers for several major video game franchises such as <i>Grand Theft Auto, Fallout, EA Sports (FIFA, Madden), NBA 2k, Guitar Hero </i> and more. Not only do I have experience working for Fortune 500 companies, I've also been a part of several startups and indies.
         </p>
         <p>
-          Within my first year of web development, I'd already built and deployed several
+          I've developed and deployed several
           <span className="devText">
             fullstack web applications
           </span>
-          using a diverse array of tech stacks, methodologies, languages and frameworks including those deployed here, as well as countless others.
+          using a diverse array of tech stacks, methodologies, languages and frameworks including those showcased here, as well as countless others.
           <br />
           {/* <br />
           <Link to="https://smokeapp-4be26bed9b46.herokuapp.com/" target="_blank">
@@ -113,11 +113,15 @@ const Bio = (props) => {
           <span className="devText">
             graduated
           </span>
-          from General Assembly's Software Engineering 2.0 Immersive (which entailed 420 hours of real-world programming experience and application design & architecture) and have quickly found refuge in the endless creative possibilities of code.
+          from General Assembly's Software Engineering 2.0 Immersive (which entailed 420 hours of real-world programming experience, work-based problems and application design). The bootcamp provided me with an incredible amount of technical knowledge and insight; allowing me to sharpen and refine my programming skills.
         </p>
         <p>
           I hope you enjoy perusing my catalog as much as I enjoyed building it. Feel free to<span className="devText">contact me</span>using the link above in the<span className="devText">nav</span>regarding potential opportunities, professional inquiries or if you'd just like to talk shop.
         </p>
+        <p>
+          Thanks for taking the time to get to know me a little better,
+        </p>
+        <p>- Brian</p>
       </div>
       <br />
       <Link to="/">
