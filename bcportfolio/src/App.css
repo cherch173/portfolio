@@ -113,7 +113,8 @@ p {
 
 .card:hover {
   background-color: rgb(51, 71, 51);
-  box-shadow: 0px 0px 1px 1px rgba(119, 185, 148, .73);
+  box-shadow: 0px 0px 2px 2px rgba(245, 245, 245, .73);
+  transform: scale(100.5%);
   transition: ease-in 142ms;
 }
 
@@ -192,8 +193,16 @@ p {
 }
 
 .portfolioImage {
-  max-width: 50vmin;
+  max-width: 42vmin;
   border-radius: 5px;
+  box-shadow: 0px 0px 1px 1px black;
+}
+
+.medsImage {
+  max-width: 33vmin;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 1px black;
+
 }
 
 .resumeImage {

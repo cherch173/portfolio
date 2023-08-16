@@ -54,6 +54,20 @@ const Portfolio = () => {
             <br />
             <h6>Featured Web Applications</h6>
             <div className="card">
+                <Link to="https://medsmusic.com/" target="_blank">
+                    <img className="medsImage" src="/IssaTeaserSquareNoText.gif" alt="medsImage" />
+                    <h3>MEDS - Official Website</h3>
+                </Link>
+                <label className="label" htmlFor="techStack">tech stack </label>
+                <p>[React.js]</p>
+                <label className="label" htmlFor="description">description </label>
+                <p>The official website for Brooklyn based punk band<span className="devText">MEDS.</span> Built entirely in React, using only Front End Development, I chose to make the website body engage the user with an immersive psychedelic CRT video (that I produced) set to respond to the band's music. The website is incredibly<span className="devText">responsive</span> and resizes between computers and mobile devices seamlessly.</p>
+                <Link to="http://www.github.com/cherch173/medswebsite" target='_blank'>
+                    <button className="githubButton">github</button>
+                </Link>
+            </div>
+            <br />
+            <div className="card">
                 <Link to="https://smokeapp-4be26bed9b46.herokuapp.com/" target="_blank">
                     <img className="portfolioImage" src="https://i.gifer.com/XTiU.gif" alt="smokeImage" />
                     <h3>SMOKE</h3>
@@ -85,7 +99,7 @@ const Portfolio = () => {
             <br />
             <div className="card">
                 <Link to="https://slice.herokuapp.com/" target="_blank">
-                    <img className="portfolioImage" src="https://github.com/cherch173/slice/raw/main/public/images/shaqPizza.gif" alt="sliceImage" />
+                    <img className="medsImage" src="https://github.com/cherch173/slice/raw/main/public/images/shaqPizza.gif" alt="sliceImage" />
                     <h3>SLICE</h3>
                 </Link>
                 <label className="label" htmlFor="techStack">tech stack </label>
