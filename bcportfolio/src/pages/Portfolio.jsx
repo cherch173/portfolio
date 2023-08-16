@@ -59,9 +59,9 @@ const Portfolio = () => {
                     <h3>MEDS - Official Website</h3>
                 </Link>
                 <label className="label" htmlFor="techStack">tech stack </label>
-                <p>[React.js]</p>
+                <p>[React.js | NODE.js]</p>
                 <label className="label" htmlFor="description">description </label>
-                <p>The official website for Brooklyn based punk band<span className="devText">MEDS.</span> Built entirely in React, using only Front End Development, I chose to make the website body engage the user with an immersive psychedelic CRT video (that I produced) set to respond to the band's music. The website is incredibly<span className="devText">responsive</span> and resizes between computers and mobile devices seamlessly.</p>
+                <p>The official website for Brooklyn based punk band<span className="devText">MEDS.</span> Built entirely in React (needing only Front End Development), I chose to make the website body engage the user with an immersive psychedelic CRT video (that I produced) set to respond to the band's music. The website is incredibly<span className="devText">responsive</span> and resizes between computers and mobile devices seamlessly.</p>
                 <Link to="http://www.github.com/cherch173/medswebsite" target='_blank'>
                     <button className="githubButton">github</button>
                 </Link>
