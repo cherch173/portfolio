@@ -309,7 +309,7 @@ button:hover {
 
 .footer {
   font-size: 2vmin;
-  position: absolute;
-  width: 86vmin;
+  /* position: absolute; */
+  /* width: 86vmin; */
   text-align: center;
 }

@@ -158,22 +158,6 @@ const Portfolio = () => {
                     <button className="githubButton">github</button>
                 </Link>
             </div>
-            {/* <br />
-            <div className="card">
-                <Link to="https://boomtownpong.surge.sh/" target="_blank">
-                    <img className="portfolioImage" src="https://media.tenor.com/IrfZ5LGhnckAAAAC/letterkenny-boomtown.gif" alt="boomtownPongImage" />
-                    <h3>BOOMTOWN</h3>
-                </Link>
-                <label className="label" htmlFor="techStack">tech stack </label>
-                <p>[Javascript | CSS | HTML]</p>
-                <label className="label" htmlFor="description">description </label>
-                <p>A two-player javascript-fueled hybrid of the Atari classic <i>Pong</i> with table-top Air Hockey.</p>
-                <p>Collision detection was engineered using CSS Style Property manipulation and vanilla javascript methods such as getBoundingClientRect()</p>
-                <br />
-                <Link to="https://github.com/cherch173/Pong-1.0" target='_blank'>
-                    <button className="githubButton">github</button>
-                </Link>
-            </div> */}
             <br />
             <button className="scrollButton" onClick={scrollUp} ref={scrollallTheWayDownRef}>
                 beam up
