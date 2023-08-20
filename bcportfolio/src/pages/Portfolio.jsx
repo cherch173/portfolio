@@ -154,9 +154,9 @@ const Portfolio = () => {
                 </p>
 
                 <br />
-                <Link to="http://www.github.com/cherch173/grit_gritt_n_gritty" target='_blank'>
+                {/* <Link to="http://www.github.com/cherch173/grit_gritt_n_gritty" target='_blank'>
                     <button className="githubButton">github</button>
-                </Link>
+                </Link> */}
             </div>
             <br />
             <button className="scrollButton" onClick={scrollUp} ref={scrollallTheWayDownRef}>
