@@ -160,7 +160,7 @@ const Portfolio = () => {
             </div>
             <br />
             <button className="scrollButton" onClick={scrollUp} ref={scrollallTheWayDownRef}>
-                beam up
+                page up
             </button>
         </div>
     )
