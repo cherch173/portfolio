@@ -49,7 +49,7 @@ const Portfolio = () => {
             </Link> */}
             <br />
             <button className="scrollButton" onClick={scrollDown}>go to games</button>
-            <button className="scrollButton" onClick={scrollBottom}>beam down</button>
+            <button className="scrollButton" onClick={scrollBottom}>page down</button>
             <br />
             <br />
             <h6>Featured Web Applications</h6>
