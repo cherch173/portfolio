@@ -105,7 +105,7 @@ const Bio = (props) => {
 
         </p>
         <Link className="gitLabel" to="http://www.github.com/cherch173" target="_blank">
-          GITHUB HEATMAP [<strong>1100+</strong> commits as of {getCurrentDate()}]
+          GITHUB HEATMAP [<strong>1200+</strong> commits as of {getCurrentDate()}]
         </Link>
         <img className="funImage" src="https://ghchart.rshah.org/cherch173" alt="cherch173's Github Heat Map" />
         <p>
