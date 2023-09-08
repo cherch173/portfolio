@@ -109,7 +109,7 @@ const Bio = (props) => {
         </Link>
         <img className="funImage" src="https://ghchart.rshah.org/cherch173" alt="cherch173's Github Heat Map" />
         <p>
-          In 2023, I
+          In early 2023, I
           <span className="devText">
             graduated
           </span>
