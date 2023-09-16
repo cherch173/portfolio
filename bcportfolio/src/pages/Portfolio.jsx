@@ -135,9 +135,9 @@ const Portfolio = () => {
                 </Link>
             </div>
             <br />
-            {/* <div className="card">
+            <div className="card">
                 <Link to="https://connect4charliemurphy.surge.sh/" target="_blank">
-                    <img className="portfolioImage" src="https://thumbs.gfycat.com/PowerlessUncomfortableComet.webp" alt="charliemurphyImage" />
+                    <img className="portfolioImage" src="https://64.media.tumblr.com/a85b790668f0e6f19c76d8e9cb212174/tumblr_oobgdstkPS1u2ragso3_500.gif" alt="charliemurphyImage" />
                     <h3>CONNECT FOUR, CHARLIE MURPHY</h3>
                 </Link>
                 <label className="label" htmlFor="techStack">tech stack </label>
@@ -154,10 +154,10 @@ const Portfolio = () => {
                 </p>
 
                 <br />
-                <Link to="http://www.github.com/cherch173/grit_gritt_n_gritty" target='_blank'>
+                <Link to="https://github.com/cherch173/connectFourCharlieMurphy" target='_blank'>
                     <button className="githubButton">github</button>
                 </Link>
-            </div> */}
+            </div>
             <br />
             <button className="scrollButton" onClick={scrollUp} ref={scrollallTheWayDownRef}>
                 page up
