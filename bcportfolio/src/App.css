@@ -6,7 +6,6 @@
 }
 
 body {
-  /* background-image: url('https://thumbs.gfycat.com/ValuableDisguisedCurlew-size_restricted.gif'); */
   background-color: rgb(28, 31, 28);
   color: whitesmoke;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -256,13 +255,12 @@ p {
 }
 
 button {
-  border-radius: 1.25vmin;
+  border-radius: 1.73vmin;
   color: whitesmoke;
   background-color: rgb(137, 173, 137);
   font-size: 2vmin;
   border: 1px solid rgb(15, 79, 15);
-  padding: .5vmin 1vmin;
-  
+  padding:  1vmin 2vmin;  
 }
 
 button:hover {
@@ -274,7 +272,7 @@ button:hover {
 }
 
 .linkedinButton {
-  border-radius: 1.25vmin;
+  border-radius: 1.73vmin;
   color: whitesmoke;
   background-color: steelblue;
   font-size: 2vmin;
@@ -290,7 +288,7 @@ button:hover {
 }
 
 .githubButton {
-  border-radius: 1.25vmin;
+  border-radius: 1.73vmin;
   color: whitesmoke;
   background-color: rgb(101, 101, 101);
   font-size: 2vmin;
@@ -298,7 +296,6 @@ button:hover {
 }
 
 .githubButton:hover {
-  border-radius: 1.25vmin;
   background-color: whitesmoke;
   color: black;
   transform: scale(105%);
@@ -307,12 +304,12 @@ button:hover {
 }
 
 .scrollButton {
-  border-radius: 1.25vmin;
+  border-radius: 1.73vmin;
   color: whitesmoke;
   background-color: rgb(137, 173, 137);
   font-size: 2vmin;
   border: 1px solid rgb(15, 79, 15);
-  margin: 1vmin;
+  margin: 3vmin 3.5vmin 1vmin;
 }
 
 .scrollButton:hover {
@@ -331,5 +328,18 @@ button:hover {
 @media (max-width: 786px) {
   .nav {
     font-size: 4.2vmin;
+  }
+
+  button {
+    font-size: 3vmin;
+  }
+
+  .scrollButton {
+    font-size: 3vmin;
+  }
+
+  .githubButton {
+    font-size: 3vmin;
+    width: fit-content;
   }
 }
