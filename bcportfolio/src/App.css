@@ -341,11 +341,16 @@ button:hover {
 
   .scrollButton {
     font-size: 3vmin;
+    width: fit-content;
+    height: fit-content;
+
   }
 
   .githubButton {
     font-size: 3vmin;
     width: fit-content;
+    height: fit-content;
+
   }
 
   .linkedinButton {
