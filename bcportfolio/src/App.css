@@ -130,8 +130,8 @@ p {
 }
 
 .skillsImage {
-  max-width: 20vmin;
-  height: 20vmin;
+  max-width: 16vmin;
+  height: 16vmin;
   border-radius: 10%;
   opacity: 86%;
   cursor: pointer;
@@ -152,8 +152,8 @@ p {
 }
 
 .noSquareSkillsImage {
-  max-width: 20vmin;
-  height: 20vmin;
+  max-width: 16vmin;
+  height: 16vmin;
   border-radius: 10%;
   opacity: 86%;
   cursor: pointer;
@@ -173,8 +173,8 @@ p {
 }
 
 .whiteSquareSkillsImage {
-  max-width: 20vmin;
-  height: 20vmin;
+  max-width: 16vmin;
+  height: 16vmin;
   border-radius: 10%;
   opacity: 86%;
   cursor: pointer;
