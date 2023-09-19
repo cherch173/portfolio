@@ -119,7 +119,7 @@ const Bio = (props) => {
           I hope you enjoy browsing my catalog as much as I enjoyed building it. Feel free to<span className="devText">contact me</span>using the link above in the<span className="devText">nav</span>regarding potential opportunities, professional inquiries or if you'd just like to talk shop.
         </p>
         <p>
-          Thanks for taking the time to get to know me a little better,
+          Thanks for taking the time to get to know me a little better.
         </p>
         <p>- Brian</p>
       </div>

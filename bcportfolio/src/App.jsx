@@ -47,8 +47,8 @@ function App() {
       </main>
       <br />
       <footer className="footer">
-        © {getYear()} Cherch, all rights reserved --
-        <a className="footerLink" target="_blank" href="mailto:b.cherchiglia@gmail.com">CONTACT</a>
+        © {getYear()} Cherch, all rights reserved. 
+        <a className="footerLink" target="_blank" href="mailto:b.cherchiglia@gmail.com">EMAIL</a>
       </footer>
     </div>
   )

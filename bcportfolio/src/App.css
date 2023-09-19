@@ -17,6 +17,7 @@ a {
   margin-left: 3vmin;
   text-shadow: -.25px .25px black;
   text-decoration: none;
+  font-size: 2.75vmin;
 }
 
 a:hover {
@@ -325,9 +326,14 @@ button:hover {
   text-align: center;
 }
 
+.footerLink {
+  font-size: 2.25vmin;
+}
+
 @media (max-width: 786px) {
-  .nav {
-    font-size: 4.2vmin;
+
+  a {
+    font-size: 4vmin;
   }
 
   button {
@@ -342,7 +348,7 @@ button:hover {
     font-size: 3vmin;
     width: fit-content;
   }
-  
+
   .linkedinButton {
     font-size: 3vmin;
     width: fit-content;
