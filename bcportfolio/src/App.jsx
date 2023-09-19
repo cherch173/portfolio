@@ -6,6 +6,7 @@ import Bio from './pages/Bio'
 import Portfolio from './pages/Portfolio'
 import Skills from './pages/Skills'
 import Resume from './pages/Resume'
+import ErrorPage from './pages/ErrorPage'
 import './App.css'
 
 function App() {
@@ -41,13 +42,14 @@ function App() {
           <Route path="/bio" element={<Bio />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
 
         <br />
       </main>
       <br />
       <footer className="footer">
-        © {getYear()} Cherch, all rights reserved. 
+        © {getYear()} Cherch, all rights reserved.
         <a className="footerLink" target="_blank" href="mailto:b.cherchiglia@gmail.com">EMAIL</a>
       </footer>
     </div>
