@@ -309,7 +309,7 @@ p {
   filter: will-change;
   animation: appear 4s ease-in-out;
   animation-fill-mode: backwards;
-  animation-delay: 5s;
+  animation-delay: 4s;
 }
 
 .socialImage:hover {
