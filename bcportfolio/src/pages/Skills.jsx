@@ -75,10 +75,53 @@ const Skills = () => {
                 <img title="Materialize" className="whiteSquareSkillsImage" src="data:image/png;base64,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" alt="materializeImage" />
             </Link>
             <br />
+            <br />
+            <div className="card">
+                <h3 className="subheaderText">Certifications</h3>
+
+                    <ul>
+
+                        <li className="typewriter">
+                            <Link className="certLink" to="https://github.com/cherch173/portfolio/blob/main/bcportfolio/public/Certificate-of-Completion-b.cherchiglia@gmail.com-1689941659.pdf">
+                                Software Engineering [<i>General Assembly</i>]
+                            </Link>
+                        </li>
+                        <li className="typewriter">
+                            <Link className="certLink" to="https://www.linkedin.com/learning/certificates/ff7aa7b4882b6eeffac388044a663a92ed17a35e90cbad0550d3adaa41d64959">
+                                Python3 Object Oriented Programming & Control Flow
+                            </Link>
+                        </li>
+                        <li className="typewriter">
+                            <Link className="certLink" to="https://www.linkedin.com/learning/certificates/f4b39a84bcde08e02e07bad8a9713f7fab96cb493400a2c0d257e2d63b4312f3">
+                                Full Stack Web Development in REACT.js
+                            </Link>
+                        </li>
+                        <li className="typewriter">
+                            <Link className="certLink" to="https://www.linkedin.com/learning/certificates/384e671d01b2fc0700af3f50d16a93cd404c1658d97c4763b15d8f8cc6bab9e5">
+                                CSS: Animation
+                            </Link>
+                        </li>
+                        <li className="typewriter">
+                            <Link className="certLink" to="https://www.linkedin.com/learning/certificates/7ac3b82b1e48865075286abb7f283a36829f9291dd4f98e746f0a76ea6a13a97">
+                                DevOps Foundations
+                                <br />
+                                <span className="devText">
+                                    (National Assosciation of State Boards of Accountacy)
+                                </span>
+                            </Link>
+                        </li>
+                        <li className="typewriter">
+                            <Link className="certLink" to="https://www.linkedin.com/learning/certificates/bc58f0e8461e00ab13b840ad593f359c25c46ae28b6f4fd16d3bc0adbcb0abd6">
+                                Designing RESTful APIs
+                            </Link>
+                        </li>
+                    </ul>
+
+            </div>
 
             <br />
-            <h3 className="">Soft Skills</h3>
             <div className="card">
+                <h3 className="subheaderText">Soft Skills</h3>
                 <li>Git Management</li>
                 <li>Organization</li>
                 <li>Creativity</li>

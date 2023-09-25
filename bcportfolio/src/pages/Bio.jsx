@@ -61,67 +61,56 @@ const Bio = (props) => {
       </Link>
 
       <div className="card">
-        <p>Welcome, my friends. Welcome to my
-          <span className="devText">
-            machines.
-          </span>
-        </p>
-        <p>
-          I'm a
-          <span className="devText">
-            software engineer,
-          </span>
-          curator
-          and
-          <span className="devText">
-            web developer
-          </span>
-          with a passion for programming and an extensive background in the music industry as both a performing artist and a music publisher.
-        </p>
-        <p>
-          I also helped to soundtrack titles and trailers for several major video game franchises such as <i>Grand Theft Auto, Fallout, EA Sports (FIFA, Madden), NBA 2k, Guitar Hero </i> and more. Not only do I have experience working for Fortune 500 companies, I've also been a part of several startups and indies.
-        </p>
-        <p>
-          I've developed and deployed several
-          <span className="devText">
-            fullstack web applications
-          </span>
-          using a diverse array of tech stacks, methodologies, languages and frameworks including those showcased here, as well as countless others.
-          <br />
-          {/* <br />
-          <Link to="https://smokeapp-4be26bed9b46.herokuapp.com/" target="_blank">
-            SMOKE
-          </Link>
-          <br />
-          [MongoDB | Express.js | REACT.js | NODE.js]
-          <br />
-          <br />
-          <Link to="https://clearance-b56453d7410f.herokuapp.com/" target="_blank">
-            CLEARANCE
-          </Link>
-          <br />
-          [Python | Django | postgreSQL | AWS S3]
-          <br /> */}
-
-        </p>
-        <Link className="gitLabel" to="http://www.github.com/cherch173" target="_blank">
-          GITHUB HEATMAP [<strong>1300+</strong> commits as of {getCurrentDate()}]
-        </Link>
-        <img className="funImage" src="https://ghchart.rshah.org/cherch173" alt="cherch173's Github Heat Map" />
-        <p>
-          In early 2023, I
-          <span className="devText">
-            graduated
-          </span>
-          from General Assembly's Software Engineering 2.0 Immersive (which entailed 420 hours of real-world programming experience, work-based problems and application design). The bootcamp provided me with an incredible amount of technical knowledge and insight; allowing me to sharpen and refine my development skills.
-        </p>
-        <p>
-          I hope you enjoy browsing my catalog as much as I enjoyed building it. Feel free to<span className="devText">contact me</span>using the link above in the<span className="devText">nav</span>regarding potential opportunities, professional inquiries or if you'd just like to talk shop.
-        </p>
-        <p>
-          Thanks for taking the time to get to know me a little better.
-        </p>
-        <p>- Brian</p>
+        <div className="container">
+          <div>
+            <p className="typewriter">Welcome, my friends. Welcome to my
+              <span className="devText">
+                machines.
+              </span>
+            </p>
+            <p className="typewriter2">
+              I'm a
+              <span className="devText">
+                software engineer,
+              </span>
+              curator
+              and
+              <span className="devText">
+                web developer
+              </span>
+              with a passion for programming and an extensive background in the music industry as both a performing artist and a music publisher.
+            </p>
+            <p>
+              I also helped to soundtrack titles and trailers for several major video game franchises such as <i>Grand Theft Auto, Fallout, EA Sports (FIFA, Madden), NBA 2k, Guitar Hero </i> and more. Not only do I have experience working for Fortune 500 companies, I've also been a part of several startups and indies.
+            </p>
+            <p>
+              I've developed and deployed several
+              <span className="devText">
+                fullstack web applications
+              </span>
+              using a diverse array of tech stacks, methodologies, languages and frameworks including those showcased here, as well as countless others.
+              <br />
+            </p>
+        </div>
+            <Link className="gitLabel" to="http://www.github.com/cherch173" target="_blank">
+              GITHUB HEATMAP [<strong>1300+</strong> commits as of {getCurrentDate()}]
+            </Link>
+            <img className="funImage" src="https://ghchart.rshah.org/cherch173" alt="cherch173's Github Heat Map" />
+            <p>
+              In early 2023, I
+              <span className="devText">
+                graduated
+              </span>
+              from General Assembly's Software Engineering 2.0 Immersive (which entailed 420 hours of real-world programming experience, work-based problems and application design). The bootcamp provided me with an incredible amount of technical knowledge and insight; allowing me to sharpen and refine my development skills.
+            </p>
+            <p>
+              I hope you enjoy browsing my catalog as much as I enjoyed building it. Feel free to<span className="devText">contact me</span>using the link above in the<span className="devText">nav</span>regarding potential opportunities, professional inquiries or if you'd just like to talk shop.
+            </p>
+            <p>
+              Thanks for taking the time to get to know me a little better.
+            </p>
+            <p>- Brian</p>
+          </div>
       </div>
       <br />
       <Link to="/">

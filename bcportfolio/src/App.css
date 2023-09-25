@@ -31,17 +31,52 @@ a:visited:hover {
   color: whitesmoke;
 }
 
+.certLink {
+  font-size: 2.25vmin;
+  color: rgb(173, 173, 137);
+  filter: will-change;
+}
+
+.certLink:hover {
+  color: whitesmoke;
+}
+
 .headerText {
   text-shadow: -.25px .25px black;
   font-size: 5vmin;
   margin: 1vmin;
-  color: rgb(137, 173, 137)
+  color: rgb(137, 173, 137);
+}
+
+.container {
+  display: inline-block;
 }
 
 .subheaderText {
   font-size: 2.5vmin;
   margin: 2vmin;
-  font-style: italic;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 1vmin rgb(183, 220, 183);
+  animation: typing 3s steps(46, end) forwards;
+}
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 1vmin rgb(183, 220, 183);
+  animation: typing 3s steps(1000, end) forwards;
+}
+
+
+@keyframes typing {
+  0% {
+    color: transparent;
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
 }
 
 h6 {
