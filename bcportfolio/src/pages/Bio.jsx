@@ -63,7 +63,6 @@ const Bio = (props) => {
       </Link>
 
       <div className="card">
-        <div className="container">
           <div>
             <p className="typewriter">Welcome, my friends. Welcome to my
               <span className="devText">
@@ -112,7 +111,6 @@ const Bio = (props) => {
             Thanks for taking the time to get to know me a little better.
           </p>
           <p>- Brian</p>
-        </div>
       </div>
       <br />
       <Link to="/">
