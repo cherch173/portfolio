@@ -85,11 +85,11 @@ const Bio = (props) => {
               I've helped to soundtrack titles and trailers for several major video game franchises such as <i>Grand Theft Auto, Fallout, EA Sports (FIFA, Madden), NBA 2k, Guitar Hero </i> and more. Not only do I have experience working for Fortune 500 companies, I've also been a part of several startups and indies.
             </p>
             <p>
-              I've developed and deployed several
+              I've developed several
               <span className="devText">
                 fullstack web applications
               </span>
-              using a diverse array of tech stacks, methodologies, languages and frameworks including those showcased here, as well as countless others.
+              into deployment using a diverse array of tech stacks, methodologies, languages and frameworks including those showcased here, as well as countless others.
               <br />
             </p>
           </div>
