@@ -80,38 +80,37 @@ const Skills = () => {
                 <h3 className="subheaderText">Certifications</h3>
 
                     <ul>
-
-                        <li className="typewriter">
-                            <Link className="certLink" to="https://github.com/cherch173/portfolio/blob/main/bcportfolio/public/Certificate-of-Completion-b.cherchiglia@gmail.com-1689941659.pdf">
-                                Software Engineering [<i>General Assembly</i>]
+                        <li className="cert">
+                            <Link target="_blank" className="certLink" to="/public/Certificate-of-Completion-b.cherchiglia@gmail.com-1689941659.pdf">
+                                Software Engineering <span className="skillsText">(General Assembly)</span>
                             </Link>
                         </li>
-                        <li className="typewriter">
-                            <Link className="certLink" to="https://www.linkedin.com/learning/certificates/ff7aa7b4882b6eeffac388044a663a92ed17a35e90cbad0550d3adaa41d64959">
+                        <li className="cert">
+                            <Link target="_blank" className="certLink" to="https://www.linkedin.com/learning/certificates/ff7aa7b4882b6eeffac388044a663a92ed17a35e90cbad0550d3adaa41d64959">
                                 Python3 Object Oriented Programming & Control Flow
                             </Link>
                         </li>
-                        <li className="typewriter">
-                            <Link className="certLink" to="https://www.linkedin.com/learning/certificates/f4b39a84bcde08e02e07bad8a9713f7fab96cb493400a2c0d257e2d63b4312f3">
+                        <li className="cert">
+                            <Link target="_blank" className="certLink" to="https://www.linkedin.com/learning/certificates/f4b39a84bcde08e02e07bad8a9713f7fab96cb493400a2c0d257e2d63b4312f3">
                                 Full Stack Web Development in REACT.js
                             </Link>
                         </li>
-                        <li className="typewriter">
-                            <Link className="certLink" to="https://www.linkedin.com/learning/certificates/384e671d01b2fc0700af3f50d16a93cd404c1658d97c4763b15d8f8cc6bab9e5">
+                        <li className="cert">
+                            <Link target="_blank" className="certLink" to="https://www.linkedin.com/learning/certificates/384e671d01b2fc0700af3f50d16a93cd404c1658d97c4763b15d8f8cc6bab9e5">
                                 CSS: Animation
                             </Link>
                         </li>
-                        <li className="typewriter">
-                            <Link className="certLink" to="https://www.linkedin.com/learning/certificates/7ac3b82b1e48865075286abb7f283a36829f9291dd4f98e746f0a76ea6a13a97">
+                        <li className="cert">
+                            <Link target="_blank" className="certLink" to="https://www.linkedin.com/learning/certificates/7ac3b82b1e48865075286abb7f283a36829f9291dd4f98e746f0a76ea6a13a97">
                                 DevOps Foundations
                                 <br />
-                                <span className="devText">
+                                <span className="skillsText">
                                     (National Assosciation of State Boards of Accountacy)
                                 </span>
                             </Link>
                         </li>
-                        <li className="typewriter">
-                            <Link className="certLink" to="https://www.linkedin.com/learning/certificates/bc58f0e8461e00ab13b840ad593f359c25c46ae28b6f4fd16d3bc0adbcb0abd6">
+                        <li className="cert">
+                            <Link target="_blank" className="certLink" to="https://www.linkedin.com/learning/certificates/bc58f0e8461e00ab13b840ad593f359c25c46ae28b6f4fd16d3bc0adbcb0abd6">
                                 Designing RESTful APIs
                             </Link>
                         </li>
@@ -123,19 +122,22 @@ const Skills = () => {
             <div className="card">
                 <h3 className="subheaderText">Soft Skills</h3>
                 <li>Git Management</li>
+                <li>Innovation</li>
+                <li>Perserverence</li>
                 <li>Organization</li>
                 <li>Creativity</li>
                 <li>Time Management</li>
+                <li>Growth Mindset</li>
                 <li>Leadership</li>
                 <li>Project Management</li>
                 <li>Public Speaking</li>
                 <li>Vision</li>
                 <li>Curation</li>
                 <li>Compassion</li>
-                <li>Civil Rights Activism</li>
+                <li>Activism</li>
                 <li>Mental Health Advocacy</li>
                 <li>Remote Work</li>
-                <li>Markdown Text</li>
+                <li>Markdown</li>
             </div>
             <br />
             <button className="scrollButton" onClick={scrollUp} ref={scrollallTheWayDownRef}>
