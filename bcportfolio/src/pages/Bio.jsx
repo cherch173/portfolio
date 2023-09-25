@@ -46,11 +46,13 @@ const Bio = (props) => {
         </span>
       </h3>
       <br />
-      <img
-        src="https://avatars.githubusercontent.com/u/130800271?v=4"
-        className="profileImage"
-        alt="profileImage"
-      />
+      <Link to="https://www.github.com/cherch173" target="_blank">
+        <img
+          src="https://avatars.githubusercontent.com/u/130800271?v=4"
+          className="profileImage"
+          alt="profileImage"
+        />
+      </Link>
       <br />
       <br />
       <Link to="http://www.github.com/cherch173" target="_blank">
@@ -91,26 +93,26 @@ const Bio = (props) => {
               using a diverse array of tech stacks, methodologies, languages and frameworks including those showcased here, as well as countless others.
               <br />
             </p>
-        </div>
-            <Link className="gitLabel" to="http://www.github.com/cherch173" target="_blank">
-              GITHUB HEATMAP [<strong>1300+</strong> commits as of {getCurrentDate()}]
-            </Link>
-            <img className="funImage" src="https://ghchart.rshah.org/cherch173" alt="cherch173's Github Heat Map" />
-            <p>
-              In early 2023, I
-              <span className="devText">
-                graduated
-              </span>
-              from General Assembly's Software Engineering 2.0 Immersive (which entailed 420 hours of real-world programming experience, work-based problems and application design). The bootcamp provided me with an incredible amount of technical knowledge and insight; allowing me to sharpen and refine my development skills.
-            </p>
-            <p>
-              I hope you enjoy browsing my catalog as much as I enjoyed building it. Feel free to<span className="devText">contact me</span>using the link above in the<span className="devText">nav</span>regarding potential opportunities, professional inquiries or if you'd just like to talk shop.
-            </p>
-            <p>
-              Thanks for taking the time to get to know me a little better.
-            </p>
-            <p>- Brian</p>
           </div>
+          <Link className="gitLabel" to="http://www.github.com/cherch173" target="_blank">
+            GITHUB HEATMAP [<strong>1300+</strong> commits as of {getCurrentDate()}]
+          </Link>
+          <img className="funImage" src="https://ghchart.rshah.org/cherch173" alt="cherch173's Github Heat Map" />
+          <p>
+            In early 2023, I
+            <span className="devText">
+              graduated
+            </span>
+            from General Assembly's Software Engineering 2.0 Immersive (which entailed 420 hours of real-world programming experience, work-based problems and application design). The bootcamp provided me with an incredible amount of technical knowledge and insight; allowing me to sharpen and refine my development skills.
+          </p>
+          <p>
+            I hope you enjoy browsing my catalog as much as I enjoyed building it. Feel free to<span className="devText">contact me</span>using the link above in the<span className="devText">nav</span>regarding potential opportunities, professional inquiries or if you'd just like to talk shop.
+          </p>
+          <p>
+            Thanks for taking the time to get to know me a little better.
+          </p>
+          <p>- Brian</p>
+        </div>
       </div>
       <br />
       <Link to="/">

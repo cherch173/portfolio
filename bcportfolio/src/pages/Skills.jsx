@@ -23,8 +23,7 @@ const Skills = () => {
     return (
         <div>
             <h3 className="headerText" ref={scrollDownRef}>Skills</h3>
-            {/* <button className="scrollButton" onClick={scrollBottom}>scroll down</button> */}
-            <h3 className="">Frameworks x Languages</h3>
+            <h3 className="subheaderText">Frameworks x Languages</h3>
             <Link to="https://react.dev/" target="_blank">
                 <img title="React.js" className="skillsImage" src="https://cdn.iconscout.com/icon/free/png-256/free-react-1-282599.png?f=webp" alt="reactImage" />
             </Link>
@@ -78,46 +77,35 @@ const Skills = () => {
             <br />
             <div className="card">
                 <h3 className="subheaderText">Certifications</h3>
-
-                    <ul>
-                        <li className="cert">
-                            <Link target="_blank" className="certLink" to="/public/Certificate-of-Completion-b.cherchiglia@gmail.com-1689941659.pdf">
-                                Software Engineering <span className="skillsText">(General Assembly)</span>
-                            </Link>
-                        </li>
-                        <li className="cert">
-                            <Link target="_blank" className="certLink" to="https://www.linkedin.com/learning/certificates/ff7aa7b4882b6eeffac388044a663a92ed17a35e90cbad0550d3adaa41d64959">
-                                Python3 Object Oriented Programming & Control Flow
-                            </Link>
-                        </li>
-                        <li className="cert">
-                            <Link target="_blank" className="certLink" to="https://www.linkedin.com/learning/certificates/f4b39a84bcde08e02e07bad8a9713f7fab96cb493400a2c0d257e2d63b4312f3">
-                                Full Stack Web Development in REACT.js
-                            </Link>
-                        </li>
-                        <li className="cert">
-                            <Link target="_blank" className="certLink" to="https://www.linkedin.com/learning/certificates/384e671d01b2fc0700af3f50d16a93cd404c1658d97c4763b15d8f8cc6bab9e5">
-                                CSS: Animation
-                            </Link>
-                        </li>
-                        <li className="cert">
-                            <Link target="_blank" className="certLink" to="https://www.linkedin.com/learning/certificates/7ac3b82b1e48865075286abb7f283a36829f9291dd4f98e746f0a76ea6a13a97">
-                                DevOps Foundations
-                                <br />
-                                <span className="skillsText">
-                                    (National Assosciation of State Boards of Accountacy)
-                                </span>
-                            </Link>
-                        </li>
-                        <li className="cert">
-                            <Link target="_blank" className="certLink" to="https://www.linkedin.com/learning/certificates/bc58f0e8461e00ab13b840ad593f359c25c46ae28b6f4fd16d3bc0adbcb0abd6">
-                                Designing RESTful APIs
-                            </Link>
-                        </li>
-                    </ul>
-
+                <Link target="_blank" className="certLink" to="/public/Certificate-of-Completion-b.cherchiglia@gmail.com-1689941659.pdf">
+                    Software Engineering <span className="skillsText">(General Assembly)</span>
+                </Link>
+                <br />
+                <Link target="_blank" className="certLink" to="https://www.linkedin.com/learning/certificates/ff7aa7b4882b6eeffac388044a663a92ed17a35e90cbad0550d3adaa41d64959">
+                    Python3 Object Oriented Programming & Control Flow
+                </Link>
+                <br />
+                <Link target="_blank" className="certLink" to="https://www.linkedin.com/learning/certificates/f4b39a84bcde08e02e07bad8a9713f7fab96cb493400a2c0d257e2d63b4312f3">
+                    Full Stack Web Development in REACT.js
+                </Link>
+                <br />
+                <Link target="_blank" className="certLink" to="https://www.linkedin.com/learning/certificates/384e671d01b2fc0700af3f50d16a93cd404c1658d97c4763b15d8f8cc6bab9e5">
+                    CSS: Animation
+                </Link>
+                <br />
+                <Link target="_blank" className="certLink" to="https://www.linkedin.com/learning/certificates/bc58f0e8461e00ab13b840ad593f359c25c46ae28b6f4fd16d3bc0adbcb0abd6">
+                    Designing RESTful APIs
+                </Link>
+                <br />
+                <Link target="_blank" className="certLink" to="https://www.linkedin.com/learning/certificates/7ac3b82b1e48865075286abb7f283a36829f9291dd4f98e746f0a76ea6a13a97">
+                    DevOps Foundations
+                    <br />
+                    <span className="skillsText">
+                        (National Assosciation of State Boards of Accountacy)
+                    </span>
+                </Link>
+                <br />
             </div>
-
             <br />
             <div className="card">
                 <h3 className="subheaderText">Soft Skills</h3>
@@ -147,7 +135,7 @@ const Skills = () => {
             <Link to="/">
                 <button className="button" ref={scrollUpRef}>back</button>
             </Link>
-        </div>
+        </div >
     )
 }
 
