@@ -81,8 +81,28 @@ const Skills = () => {
                     Software Engineering <span className="skillsText">(General Assembly)</span>
                 </Link>
                 <br />
+                <Link target="_blank" className="certLink" to="https://www.linkedin.com/learning/certificates/e5fef297c9f3eba718274fb5430aba602ba8be0063aa54f2f92cbf383d21894b">
+                    Artificial Intelligence: Foundations
+                    <br />
+                    <span className="skillsText">
+                        (National Assosciation of State Boards of Accountacy)
+                    </span>
+                </Link>
+                <br />
+                <Link target="_blank" className="certLink" to="https://www.linkedin.com/learning/certificates/ce686414a898692395a1406f5eca6f81ecad15e1c8ca477cdc03ca0194081f14">
+                    Applied Machine Learning: Foundations <span className="skillsText">(LinkedIn)</span>
+                </Link>
+                <br />
+                <Link target="_blank" className="certLink" to="https://www.linkedin.com/learning/certificates/a59cffda3382bd404ac0faf3e0fe995d4d5308047c9eb64d3de11e6908e0d5ee">
+                    Applied Machine Learning Algorithms <span className="skillsText">(LinkedIn)</span>
+                </Link>
+                <br />
+                <Link target="_blank" className="certLink" to="https://www.linkedin.com/learning/certificates/1bef36e2b904144055c913d1132e9f53b6d5cbbf229bca4b2d3ecc44d3d6b54f">
+                    Machine Learning with Python <span className="skillsText">(LinkedIn)</span>
+                </Link>
+                <br />
                 <Link target="_blank" className="certLink" to="https://www.linkedin.com/learning/certificates/ff7aa7b4882b6eeffac388044a663a92ed17a35e90cbad0550d3adaa41d64959">
-                    Python3 Object Oriented Programming & Control Flow
+                    Python3 Object Oriented Programming
                 </Link>
                 <br />
                 <Link target="_blank" className="certLink" to="https://www.linkedin.com/learning/certificates/f4b39a84bcde08e02e07bad8a9713f7fab96cb493400a2c0d257e2d63b4312f3">
