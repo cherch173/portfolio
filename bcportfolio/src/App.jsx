@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { Route, Routes } from 'react-router'
+import { Switch } from 'react-router-dom'
 import Nav from './components/Nav'
 import Home from './pages/Home'
 import Bio from './pages/Bio'
@@ -38,11 +39,13 @@ function App() {
 
       <main>
         <Routes>
-          <Route path="/" element={<Portfolio />} />
-          <Route path="/bio" element={<Bio />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<ErrorPage />} />
+          <Switch>
+            <Route exact path="/" element={<Portfolio />} />
+            <Route path="*" component={<ErrorPage />} />
+            <Route path="/bio" element={<Bio />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/resume" element={<Resume />} />
+          </Switch>
         </Routes>
 
         <br />
