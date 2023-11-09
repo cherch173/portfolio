@@ -38,8 +38,8 @@ function App() {
 
       <main>
         <Routes>
-          <Route path="*" element={<ErrorPage />} />
           <Route exact path="/" element={<Portfolio />} />
+          <Route path="*" element={<ErrorPage />} />
           <Route path="/bio" element={<Bio />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/resume" element={<Resume />} />
