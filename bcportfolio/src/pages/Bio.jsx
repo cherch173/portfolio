@@ -3,20 +3,6 @@ import { Link } from 'react-router-dom'
 import axios from 'axios'
 
 const Bio = (props) => {
-  // const [commits, setCommits] = useState('')
-
-  // const getCommits = async () => {
-  //   try {
-  //     const res = await axios.get(`https://ghchart.rshah.org/cherch173`)
-  //     setCommits(res.data)
-  //   } catch (error) {
-  //     throw error
-  //   }
-  // }
-
-  // useEffect(() => {
-  //   getCommits()
-  // }, []);
 
   const getCurrentDate = () => {
     const date = new Date()
@@ -63,54 +49,58 @@ const Bio = (props) => {
       </Link>
 
       <div className="card">
-          <div>
-            <p className="typewriter">Welcome, my friends. Welcome to my
-              <span className="devText">
-                machines.
-              </span>
-            </p>
-            <p className="typewriter2">
-              I'm a
-              <span className="devText">
-                software engineer,
-              </span>
-              curator
-              and
-              <span className="devText">
-                web developer
-              </span>
-              with a passion for programming and an extensive background in the music industry as both a performing artist and a music publisher.
-            </p>
-            <p>
-              I've helped to soundtrack titles and trailers for several major video game franchises such as <i>Grand Theft Auto, Fallout, EA Sports (FIFA, Madden), NBA 2k, Guitar Hero </i> and more. Not only do I have experience working for Fortune 500 companies, I've also been a part of several startups and indies.
-            </p>
-            <p>
-              I've developed several
-              <span className="devText">
-                fullstack web applications
-              </span>
-              into deployment using a diverse array of tech stacks, methodologies, languages and frameworks including those showcased here, as well as countless others.
-              <br />
-            </p>
-          </div>
-          <Link className="gitLabel" to="http://www.github.com/cherch173" target="_blank">
-            GITHUB HEATMAP [<strong>1400+</strong> commits as of {getCurrentDate()}]
-          </Link>
-          <img className="funImage" src="https://ghchart.rshah.org/cherch173" alt="cherch173's Github Heat Map" />
-          <p>
-            In early 2023, I
+        <div>
+          <p className="typewriter">Welcome, my friends. Welcome to my
             <span className="devText">
-              graduated
+              machines.
             </span>
-            from General Assembly's Software Engineering 2.0 Immersive (which entailed 420 hours of real-world programming experience, work-based problems and application design). The bootcamp provided me with an incredible amount of technical knowledge and insight; allowing me to sharpen and refine my development skills. Since then, I've amassed several different certifications in Applied Machine Learning, Artificial Intelligence, DevOps and Data Structures / Algorithms. 
+          </p>
+          <p className="typewriter2">
+            I'm a
+            <span className="devText">
+              software engineer,
+            </span>
+            curator
+            and
+            <span className="devText">
+              web developer
+            </span>
+            with a passion for programming and an extensive background in the music industry as both a performing artist and a music publisher.
           </p>
           <p>
-            I hope you enjoy browsing my catalog as much as I enjoyed building it. Feel free to<span className="devText">contact me</span>using the link above in the<span className="devText">nav</span>regarding potential opportunities, professional inquiries or if you'd just like to talk shop.
+            I've helped to soundtrack titles and trailers for several major video game franchises such as <i>Grand Theft Auto, Fallout, EA Sports (FIFA, Madden), NBA 2k, Guitar Hero </i> and more. Not only do I have experience working for Fortune 500 companies, I've also been a part of several startups and indies.
           </p>
           <p>
-            Thanks for taking the time to get to know me a little better.
+            I've developed several
+            <span className="devText">
+              fullstack web applications
+            </span>
+            into deployment using a diverse array of tech stacks, methodologies, languages and frameworks including those showcased here, as well as countless others.
+            <br />
           </p>
-          <p>- Brian</p>
+        </div>
+        <Link className="gitLabel" to="http://www.github.com/cherch173" target="_blank">
+          GITHUB HEATMAP [<strong>1400+</strong> commits as of {getCurrentDate()}]
+        </Link>
+        <img className="funImage" src="https://ghchart.rshah.org/cherch173" alt="cherch173's Github Heat Map" />
+        <p>
+          In early 2023, I
+          <span className="devText">
+            graduated
+          </span>
+          from General Assembly's Software Engineering 2.0 Immersive (which entailed 420 hours of real-world programming experience, work-based problems and application design). The bootcamp provided me with an incredible amount of technical knowledge and insight; allowing me to sharpen and refine my development skills.
+          Since then, I've expanded my palate by diving head-first into Applied Machine Learning and Artifical Intelligence foundations, earning several different certifications in Python3 based AML including training data sets, building neural networks, prompting and laddering LLMs and using frameworks such as Jupyter Notebook, Jupyter Lab, Anaconda & PyTorch.
+        </p>
+        <p>
+          I've also become certified in DevOps, Data Structures & Algorithms and advanced front-end skillsets such as CSS Animations and harnessing the true power of State in the React-Router-DOM.
+        </p>
+        <p>
+          I hope you enjoy browsing my catalog as much as I enjoyed building it. Feel free to<span className="devText">contact me</span>using the link above in the<span className="devText">nav</span>regarding potential opportunities, professional inquiries or if you'd just like to talk shop.
+        </p>
+        <p>
+          Thanks for taking the time to get to know me a little better.
+        </p>
+        <p>- Brian</p>
       </div>
       <br />
       <Link to="/">
