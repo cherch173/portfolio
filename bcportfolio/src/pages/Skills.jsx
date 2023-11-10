@@ -75,6 +75,16 @@ const Skills = () => {
             </Link>
             <br />
             <br />
+            <Link to="https://jupyter.org/" target="_blank">
+                <img title="JupyterLab" className="whiteSquareSkillsImage" src="https://miro.medium.com/v2/resize:fit:1200/1*a-FWJyldIv4ywznWhGGdNg.jpeg" alt="jupyterImage" />
+            </Link>
+            <Link to="https://jupyter.org/" target="_blank">
+                <img title="JupyterNotebook" className="noSquareSkillsImage" src="https://ncar-hackathons.github.io/jupyterlab-tutorial/images/logo/logo.png" alt="jupyterNotebookImage" />
+            </Link>
+            <Link to="https://www.anaconda.com/" target="_blank">
+                <img title="Anaconda" className="whiteSquareSkillsImage" src="https://theqalead.b-cdn.net/wp-content/cache/theqalead.com/static/static.crozdesk.com/web-app-library-providers-logos-000-010-679-pub-anaconda-1669213315-logo.png" alt="anacondaImage" />
+            </Link>
+            <br />
             <div className="card">
                 <h3 className="subheaderText">Certifications</h3>
                 <Link target="_blank" className="certLink" to="/public/Certificate-of-Completion-b.cherchiglia@gmail.com-1689941659.pdf">
