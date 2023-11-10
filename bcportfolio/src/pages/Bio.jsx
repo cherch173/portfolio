@@ -92,7 +92,7 @@ const Bio = (props) => {
           Since then, I've expanded my palate by diving head-first into Applied Machine Learning and Artifical Intelligence foundations, earning several different certifications in Python3 based AML including training data sets, building neural networks, prompting and laddering LLMs and using frameworks such as Jupyter Notebook, Jupyter Lab, Anaconda & PyTorch.
         </p>
         <p>
-          I've also become certified in DevOps, Data Structures & Algorithms and advanced front-end skillsets such as CSS Animations and harnessing the true power of State in the React-Router-DOM.
+          I've also become certified in DevOps, Data Structures & Algorithms and advanced front-end skillsets such as CSS Animations and learning to harness the true power of useState and useEffect in the React-Router-DOM.
         </p>
         <p>
           I hope you enjoy browsing my catalog as much as I enjoyed building it. Feel free to<span className="devText">contact me</span>using the link above in the<span className="devText">nav</span>regarding potential opportunities, professional inquiries or if you'd just like to talk shop.
