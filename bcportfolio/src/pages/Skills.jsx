@@ -84,6 +84,16 @@ const Skills = () => {
                 <img title="Anaconda" className="whiteSquareSkillsImage" src="https://theqalead.b-cdn.net/wp-content/cache/theqalead.com/static/static.crozdesk.com/web-app-library-providers-logos-000-010-679-pub-anaconda-1669213315-logo.png" alt="anacondaImage" />
             </Link>
             <br />
+            <Link to="https://reactnative.dev/" target="_blank">
+                <img title="reactNative" className="whiteSquareSkillsImage" src="https://testrigor.com/wp-content/uploads/2023/08/react-native-logo-square.png" alt="reactNativeImage" />
+            </Link>
+            <Link to="https://ionic.io" target="_blank">
+                <img title="Ionic" className="noSquareSkillsImage" src="https://cdck-file-uploads-global.s3.dualstack.us-west-2.amazonaws.com/ionicframework/original/3X/a/4/a488f17e4616738ff04531ef23fa4572a4659d64.png" alt="ionicImage" />
+            </Link>
+            <Link to="http://www.docker.com" target="_blank">
+                <img title="docker" className="whiteSquareSkillsImage" src="https://blogs.swarthmore.edu/its/wp-content/uploads/2019/06/docker_logo.png" alt="dockerImage" />
+            </Link>
+            <br />
             <br />
             <div className="card">
                 <h3 className="subheaderText">Certifications</h3>
