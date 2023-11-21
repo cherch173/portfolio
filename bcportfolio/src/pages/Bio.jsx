@@ -59,8 +59,8 @@ const Bio = (props) => {
             I'm a
             <span className="devText">
               software engineer,
-            </span>
             curator
+            </span>
             and
             <span className="devText">
               web developer
