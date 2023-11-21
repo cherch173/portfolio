@@ -42,7 +42,7 @@ const Portfolio = () => {
                 <img className="socialImage" src="/github-logo-black.jpg" alt="gitHubText" />
             </Link>
             <Link to="http://www.linkedin.com/in/bcherchiglia" target="_blank">
-                <img className="socialImage" src="https://logodix.com/logo/1280091.png" alt="linkedInButton" />
+                <img className="socialImage" src="https://logodix.com/logo/1280091.png" alt="scrollButton" />
             </Link>
             {/* <Link to="/resume" onClick={handleClick} >
                 <img className="socialImage" src="https://png.pngtree.com/png-vector/20190412/ourlarge/pngtree-vector-resume-icon-png-image_932447.jpg" alt="resumeImage" />
@@ -61,12 +61,15 @@ const Portfolio = () => {
                 <label className="label" htmlFor="techStack">tech stack </label>
                 <p>[React.js | NODE.js]</p>
                 <label className="label" htmlFor="description">description </label>
-                <p>The official website for Brooklyn based punk band<span className="devText">MEDS.</span> 
-                <p>
-                Built entirely in React (needing only Front End Development), I chose to make the website body engage the user with an immersive psychedelic CRT video (that I produced) set to respond to the band's music. The website is incredibly<span className="devText">responsive</span>and seamlessly resizes between computers and mobile devices without sacrificing fidelity.</p>
+                <p>The official website for Brooklyn based punk band<span className="devText">MEDS.</span>
+                    <p>
+                        Built entirely in React (needing only Front End Development), I chose to make the website body engage the user with an immersive psychedelic CRT video (that I produced) set to respond to the band's music. The website is incredibly<span className="devText">responsive</span>and seamlessly resizes between computers and mobile devices without sacrificing fidelity.</p>
                 </p>
                 <Link to="http://www.github.com/cherch173/medswebsite" target='_blank'>
                     <button className="githubButton">github</button>
+                </Link>
+                <Link to="http://medsmusic.com" target="_blank">
+                    <button className="button">website</button>
                 </Link>
             </div>
             <br />
@@ -79,8 +82,18 @@ const Portfolio = () => {
                 <p>MERN [MongoDB | Express.js | React.js | NODE.js]</p>
                 <label className="label" htmlFor="description">description </label>
                 <p><span className="devText">SMOKE</span> is a social network I designed as a hub for intellectual property and creative endeavors. Using the expansive capabilities of React's built in react-router-dom features (such as useRef useContext and Link) I engineered a comment section unique to each card and (using nested arrays of objects) store user data and presence within several schemas, making data access between objects virtually global from just a simple "like."</p>
+                <p>
+                    <span className="devText">RECRUITER LOGIN</span>
+                    <br />
+                    <label className="devText" htmlFor="smokeLoginRecruiters">email: </label>accawebdevelopment@gmail.com
+                    <br />
+                    <label className="devText" htmlFor="smokePWRecruiters">password: </label>hireBrian
+                </p>
                 <Link to="http://www.github.com/cherch173/smoke" target='_blank'>
                     <button className="githubButton">github</button>
+                </Link>
+                <Link to="https://smokeapp-4be26bed9b46.herokuapp.com/" target="_blank">
+                    <button className="button">website</button>
                 </Link>
             </div>
             <br />
@@ -94,9 +107,19 @@ const Portfolio = () => {
                 <label className="label" htmlFor="description">description </label>
                 <p>A fullstack web application that acts as a fully user-interactive database for confirmed declassified UAP / UFO cases, sightings and reports.  Utilizing several different full CRUD operations, users can read articles, view images, gifs and videos (spanning from entire documentaries to military footage and radar data) in high resolution and even access official government documentation.</p>
                 <p><span className="devText">CLEARANCE</span>was built as a group endeavor with two other developers (Platin Syla & Nicholas Emmons) where I served as Git Manager, Project Manager and the primary composer for entites with one-to-many relationships.  In addition to my project leadership and backend design, I also spearheaded Frontend development combining raw CSS with Google's Materialize.</p>
+                <p>
+                    <span className="devText">RECRUITER LOGIN</span>
+                    <br />
+                    <label className="devText" htmlFor="smokeLoginRecruiters">username: </label>recruitersBC
+                    <br />
+                    <label className="devText" htmlFor="smokePWRecruiters">password: </label>hireBrian
+                </p>
                 <br />
                 <Link to="http://www.github.com/cherch173/clearance" target='_blank'>
                     <button className="githubButton">github</button>
+                </Link>
+                <Link to="https://clearance-b56453d7410f.herokuapp.com/" target="_blank">
+                    <button className="button">website</button>
                 </Link>
             </div>
             <br />
@@ -112,6 +135,9 @@ const Portfolio = () => {
                 <br />
                 <Link to="http://www.github.com/cherch173/slice" target='_blank'>
                     <button className="githubButton">github</button>
+                </Link>
+                <Link to="https://slice.herokuapp.com/" target="_blank">
+                    <button className="button">website</button>
                 </Link>
             </div>
             <br />
