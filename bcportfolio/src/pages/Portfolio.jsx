@@ -65,12 +65,14 @@ const Portfolio = () => {
                     <p>
                         Built entirely in React (needing only Front End Development), I chose to make the website body engage the user with an immersive psychedelic CRT video (that I produced) set to respond to the band's music. The website is incredibly<span className="devText">responsive</span>and seamlessly resizes between computers and mobile devices without sacrificing fidelity.</p>
                 </p>
+                <br />
                 <Link to="http://www.github.com/cherch173/medswebsite" target='_blank'>
                     <button className="githubButton">github</button>
                 </Link>
                 <Link to="http://medsmusic.com" target="_blank">
                     <button className="button">website</button>
                 </Link>
+                <br />
             </div>
             <br />
             <div className="card">
@@ -89,12 +91,14 @@ const Portfolio = () => {
                     <br />
                     <label className="devText" htmlFor="smokePWRecruiters">password: </label>hireBrian
                 </p>
+                <br />
                 <Link to="http://www.github.com/cherch173/smoke" target='_blank'>
                     <button className="githubButton">github</button>
                 </Link>
                 <Link to="https://smokeapp-4be26bed9b46.herokuapp.com/" target="_blank">
                     <button className="button">website</button>
                 </Link>
+                <br />
             </div>
             <br />
             <div className="card">
@@ -102,9 +106,9 @@ const Portfolio = () => {
                     <img className="portfolioImage" src="https://s3.us-east-2.amazonaws.com/clearance-bnp/5a8c9c.webp" alt="clearanceImage" />
                     <h3>CLEARANCE</h3>
                 </Link>
-                <label className="label" htmlFor="techStack">tech stack </label>
+                <label className="label" htmlFor="techStack">tech stack</label>
                 <p>[Python | Django | postgreSQL | AWS S3 | Materialize | CSS]</p>
-                <label className="label" htmlFor="description">description </label>
+                <label className="label" htmlFor="description">description</label>
                 <p>A fullstack web application that acts as a fully user-interactive database for confirmed declassified UAP / UFO cases, sightings and reports.  Utilizing several different full CRUD operations, users can read articles, view images, gifs and videos (spanning from entire documentaries to military footage and radar data) in high resolution and even access official government documentation.</p>
                 <p><span className="devText">CLEARANCE</span>was built as a group endeavor with two other developers (Platin Syla & Nicholas Emmons) where I served as Git Manager, Project Manager and the primary composer for entites with one-to-many relationships.  In addition to my project leadership and backend design, I also spearheaded Frontend development combining raw CSS with Google's Materialize.</p>
                 <p>
@@ -121,6 +125,7 @@ const Portfolio = () => {
                 <Link to="https://clearance-b56453d7410f.herokuapp.com/" target="_blank">
                     <button className="button">website</button>
                 </Link>
+                <br />
             </div>
             <br />
             <div className="card">
@@ -131,7 +136,7 @@ const Portfolio = () => {
                 <label className="label" htmlFor="techStack">tech stack </label>
                 <p>[Express.js | NODE.js | OAuth | CSS | Javascript | HTML]</p>
                 <label className="label" htmlFor="description">description </label>
-                <p>The official end to the argument.  Long have New Yorkers argued over what the <i>best</i> pizza in the city is.  Well, in order to quell that debate I made <span className="devText">SLICE</span>: an Express.js application that acts as a power rankings site to achieve that exact goal using an aggregate scale of 5.</p>
+                <p>The official end to the argument. Long have New Yorkers argued over what the <i>best</i> pizza in the city is.  Well, in order to quell that debate I made <span className="devText">SLICE</span>: an Express.js application that acts as a power rankings site to achieve that exact goal using an aggregate scale of 5.</p>
                 <br />
                 <Link to="http://www.github.com/cherch173/slice" target='_blank'>
                     <button className="githubButton">github</button>
@@ -139,6 +144,7 @@ const Portfolio = () => {
                 <Link to="https://slice.herokuapp.com/" target="_blank">
                     <button className="button">website</button>
                 </Link>
+                <br />
             </div>
             <br />
 

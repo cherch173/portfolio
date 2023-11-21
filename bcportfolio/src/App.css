@@ -146,6 +146,7 @@ h6 {
 .label {
   color: rgb(137, 173, 137);
   font-size: 2vmin;
+  align-items: center;
 }
 
 .gitLabel {
