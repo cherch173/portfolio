@@ -21,28 +21,28 @@ const Portfolio = () => {
         scrollallTheWayDownRef.current.scrollIntoView({ behavior: 'smooth' })
     }
 
-    const handleClick = () => {
+    // const handleClick = () => {
 
-        fetch('/Brian_Cherchiglia_Resume_SE2023.pdf').then(res => {
-            res.blob().then(blob => {
-                const fileURL = window.URL.createObjectURL(blob);
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.download = '/Brian_Cherchiglia_Resume_SE2023.pdf';
-                alink.click()
-            })
-        })
-    }
+    //     fetch('/Brian_Cherchiglia_Resume_SE2023.pdf').then(res => {
+    //         res.blob().then(blob => {
+    //             const fileURL = window.URL.createObjectURL(blob);
+    //             let alink = document.createElement('a');
+    //             alink.href = fileURL;
+    //             alink.download = '/Brian_Cherchiglia_Resume_SE2023.pdf';
+    //             alink.click()
+    //         })
+    //     })
+    // }
 
     return (
         <div>
             <h3 className="headerText" ref={scrollDownRef}>Brian Cherchiglia</h3>
             <h6 className="subheaderText">Software Engineer - Full Stack Web Developer </h6>
-            <Link to="http://www.github.com/cherch173" target="_blank">
-                <img className="socialImage" src="/github-logo-black.jpg" alt="gitHubText" />
-            </Link>
             <Link to="http://www.linkedin.com/in/bcherchiglia" target="_blank">
                 <img className="socialImage" src="https://logodix.com/logo/1280091.png" alt="scrollButton" />
+            </Link>
+            <Link to="http://www.github.com/cherch173" target="_blank">
+                <img className="socialImage" src="/github-logo-black.jpg" alt="gitHubText" />
             </Link>
             {/* <Link to="/resume" onClick={handleClick} >
                 <img className="socialImage" src="https://png.pngtree.com/png-vector/20190412/ourlarge/pngtree-vector-resume-icon-png-image_932447.jpg" alt="resumeImage" />

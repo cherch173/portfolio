@@ -14,21 +14,27 @@ function App() {
 
   ReactGA.initialize('G-E3QLPD2WBD')
 
-  const getYear = () => {
-    return new Date().getFullYear()
-  }
-
+  // using Google Analytics to scrape page user's location and IP
+  const location = useLocation()
+  useEffect(() => {
+    ReactGA.pageview(location.pathname + location.search)
+  }, [location])
 
   const handleClick = () => {
-    fetch('public/Brian_Cherchiglia_Resume_SE2023.pdf').then(res => {
-      res.blob().then(blob => {
-        const fileURL = window.URL.createObjectURL(blob);
-        let alink = document.createElement('a');
-        alink.href = fileURL;
-        alink.download = '/Brian_Cherchiglia_Resume_SE2023.pdf';
-        alink.click()
-      })
-    })
+    // tracking a custom event w/ Google Analytics
+    ReactGA.event({
+      category: 'Button Click',
+      action: 'Clicked on LinkedIn Button',
+      label: 'Home Page'
+    });
+    { onclick }
+  }
+
+  handleClick()
+
+  // return the current year (for Footer)
+  const getYear = () => {
+    return new Date().getFullYear()
   }
 
   return (
