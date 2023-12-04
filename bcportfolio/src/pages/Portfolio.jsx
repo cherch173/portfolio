@@ -21,18 +21,18 @@ const Portfolio = () => {
         scrollallTheWayDownRef.current.scrollIntoView({ behavior: 'smooth' })
     }
 
-    // const handleClick = () => {
+    const handleClick = () => {
 
-    //     fetch('/Brian_Cherchiglia_Resume_SE2023.pdf').then(res => {
-    //         res.blob().then(blob => {
-    //             const fileURL = window.URL.createObjectURL(blob);
-    //             let alink = document.createElement('a');
-    //             alink.href = fileURL;
-    //             alink.download = '/Brian_Cherchiglia_Resume_SE2023.pdf';
-    //             alink.click()
-    //         })
-    //     })
-    // }
+        fetch('/Brian - Cherchiglia - Resume - SE2023 - GA.pdf').then(res => {
+            res.blob().then(blob => {
+                const fileURL = window.URL.createObjectURL(blob);
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = '/Brian - Cherchiglia - Resume - SE2023 - GA.pdf';
+                alink.click()
+            })
+        })
+    }
 
     return (
         <div>

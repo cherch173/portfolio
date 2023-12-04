@@ -6,8 +6,7 @@ const Resume = () => {
         <div>
             <h3>Resume</h3>
             <div className="card">
-                <img className="resumeImage" src="/Brian_Cherchiglia_Resume_SE2023.jpg" alt="resumeImage" />
-                <img className="resumeImage" src="/Brian_Cherchiglia_Resume_SE2023pg2.jpg" alt="resumepg2Image" />
+                <iframe src="public/Brian - Cherchiglia - Resume - SE2023 - GA.pdf" frameborder="0"></iframe>
             </div>
             <br />
             <br />
