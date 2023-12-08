@@ -127,7 +127,7 @@ const Portfolio = () => {
                 </Link>
                 <br />
             </div>
-            <br />
+            {/* <br />
             <div className="card">
                 <Link to="https://slice.herokuapp.com/" target="_blank">
                     <img className="medsImage" src="https://github.com/cherch173/slice/raw/main/public/images/shaqPizza.gif" alt="sliceImage" />
@@ -145,7 +145,7 @@ const Portfolio = () => {
                     <button className="button">website</button>
                 </Link>
                 <br />
-            </div>
+            </div> */}
             <br />
 
             <h6 ref={scrollUpRef}>Featured Browser-Based Games</h6>
