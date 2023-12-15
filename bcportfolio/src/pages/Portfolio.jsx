@@ -44,9 +44,6 @@ const Portfolio = () => {
             <Link to="http://www.github.com/cherch173" target="_blank">
                 <img className="socialImage" src="/github-logo-black.jpg" alt="gitHubText" />
             </Link>
-            {/* <Link to="/resume" onClick={handleClick} >
-                <img className="socialImage" src="https://png.pngtree.com/png-vector/20190412/ourlarge/pngtree-vector-resume-icon-png-image_932447.jpg" alt="resumeImage" />
-            </Link> */}
             <br />
             <button className="scrollButton" onClick={scrollDown}>go to games</button>
             <button className="scrollButton" onClick={scrollBottom}>page down</button>
