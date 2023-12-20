@@ -1,9 +1,7 @@
-# Meds
-### Official Website
+# Brian Cherchiglia
+### Official Portfolio
 
-Welcome to the official website for Meds.
-
-Built by Cherch using React.js + Node.js
+Welcome to my [Portfolio]('http://bcportfolio.surge.sh')
 
 
 
